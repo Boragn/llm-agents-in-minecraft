@@ -1,5 +1,0 @@
-KROK powod=limit uzyto=150 max=150 do=koniec tick=1841607
-POLOWANIE KONIEC zabito sheep; ciosy 9
-OK k-063.2 atakuj najblizszy sheep ZROBIONE zabito polowanie: sheep zabity, ciosy 9 ; przejeto: mutton x1, white_wool x1
-OK k-063 ZROBIONE lancuch 2/2
-STAN cialo=lucznik tick=1841607 dzien=77 poz=(-350.5,72.0,93.2) BLOK=(-351,72,93) hp=20.0/20.0 glod=20 nasycenie=19.0 pragnienie=12/20 stamina=31.0 wyczerpany=nie reka=minecraft:oak_logx3 klatka=232 budzet=wl sr=1.71ms p99=5.43ms przekr=4 pora=dzien do_zmierzchu=8130t/406s do_nocy=9130t/456s

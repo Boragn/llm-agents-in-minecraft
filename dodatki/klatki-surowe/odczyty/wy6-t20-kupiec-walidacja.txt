@@ -1,4 +1,0 @@
-OK k-047 PRZYJETO lancuch 2 kroki (sprawdzono: ETA 0s, stamina 100->100, wykonalny)
-POSTEP k-046 LANCUCH PRZERWANY powod=zastapiony przez k-047 po 0/1, POMINIETE: 1
-SYMULACJA k-047 wykonalny: 2 krokow, ok. 4 s, stan po: pozycja (-119,80,161), ekwipunek leather_flask x1, purified_water_bottle x3
-BLAD k-047.1 E_BRAK_WODY pij: brak zrodla wody w zasiegu rak (4 bloki): podejdz do wody (idz) i powtorz pij ; LANCUCH PRZERWANY po 0/2, POMINIETE: 2

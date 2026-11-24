@@ -1,14 +1,14 @@
 # Dodatki
 
-[indeks](../esej-indeks.md)
+[artykuł](../README.pl.md) · [article (EN)](../README.md)
+
+Materiały, do których odsyła artykuł (po polsku).
 
 | plik albo katalog | zawartość |
 |---|---|
-| [glosariusz.md](glosariusz.md) | pojęcia i wszystkie symbole klatek (3D, 2D, przejezdność, radar) oraz paleta figur |
-| [protokol-eksperymentu-poziom-2.md](protokol-eksperymentu-poziom-2.md) | protokół eksperymentu „czy agent sam rozumie klatkę” (niezlecony) |
-| [tor-kontrolny.md](tor-kontrolny.md) | osiem prób toru kontrolnego przed scenariuszem |
-| [klatki-surowe/](klatki-surowe/) | pełne, surowe klatki ASCII z WY-8 i z prototypu projekcji oraz [odczyty/](klatki-surowe/odczyty/) (odczyty ciał po WY-6, fragmenty tur WY-5, WY-6, WY-8, przykłady samotestu), z których powstały figury; w rozdziałach nie ma już bloków ASCII |
-| [filmy/](filmy/) | filmy percepcji (GIF): WY-9 z paskiem decyzji (PLAN, wybór z menu, wynik łańcucha) i osią decyzji całego przebiegu, oraz archiwum WY-8 w [filmy/wy8/](filmy/wy8/) (GIF i MP4); widok z oczu ciała, rzut 2,5D z pochodnymi A, B, C, ekwipunek, wyposażenie, rola i pasek czasu; generator `figury/filmy.py` |
-| [dane/](dane/) | CSV z liczbami do figur (oś czasu i trajektorie WY-8, radar) i [tabele/](dane/tabele/) wyciągnięte z rozdziałów |
+| [test-percepcji/](test-percepcji/wyniki.md) | test percepcji z modelem w pętli: trafność czterech wariantów klatki wobec liczby tokenów (Haiku i Sonnet, 2 sceny, 6 pytań, 3 powtórzenia) i figura |
+| [glosariusz.md](glosariusz.md) | pojęcia i symbole klatek (3D, 2D, przejezdność, radar) oraz konwencja i paleta figur |
+| [klatki-surowe/](klatki-surowe/README.md) | pełne, surowe klatki tekstowe, czyli dokładnie to, co dostał model: klatki środowiska z przebiegu WY-8 i rzuty z prototypu projekcji (wejścia testu percepcji) |
+| [filmy/](filmy/README.md) | filmy percepcji (GIF): przebieg WY-9 z paskiem i osią decyzji modelu oraz archiwum WY-8 (GIF i MP4); widok z oczu ciała, rzut 2,5D z pochodnymi, ekwipunek, rola i pasek czasu |
 
-Liczby w `dane/` generują skrypty: `figury/figury.py` (dane figur) i `narzedzia/tabele_csv.py` (tabele z rozdziałów).
+Figury artykułu leżą w [../figury/](../figury/).

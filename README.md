@@ -1,8 +1,10 @@
 # LLM agents in Minecraft: the environment decides how the agent behaves
 
-*Polska wersja: [README.pl.md](README.pl.md). Full engineering essay (Polish): [esej-indeks.md](esej-indeks.md).*
+*Languages: English (this file) · [Polski](README.pl.md)*
 
-*Article v1, November 2026. A condensed version of the engineering essay ["Knowledge, action menu, perception and metacognition"](esej-indeks.md) (Polish), rewritten as recommendations. Every number comes from the essay or from the [perception test results](dodatki/test-percepcji/wyniki.md) (Polish).*
+**Repository map:** this article in English and the same article in Polish ([README.pl.md](README.pl.md)) · [figury/](figury/): figures used in the article · [dodatki/](dodatki/README.md): appendices (perception test, glossary, raw frames, videos; in Polish)
+
+*Article v1, November 2026, condensed from a longer engineering essay (in Polish) and rewritten as recommendations; every number comes from the recorded runs or from the [perception test results](dodatki/test-percepcji/wyniki.md) (Polish).*
 
 ## Summary
 
@@ -132,7 +134,7 @@ Where the shortest path made sense, the model planned well and cheaply: the hunt
 ## 5. Monitoring: observe the agent the way a human reads it
 
 **One text record from which every view is generated deterministically.**
-Evidence: since the first milestone, every turn goes into a JSONL log, and every perception frame goes into the log byte for byte with a sha256 checksum; a ring buffer of the last 20 frames makes it possible to reproduce exactly what the model saw. From that same record a script generates timelines, trajectories, decision trees and videos. In the essay I call this the most valuable decision, because none of the audits would have been possible without it. The timeline of a single run immediately showed two different problems: the hunter was not executing any step 43% of the time, while the miner was busy almost continuously, except that for 1650 ticks this was one chain with no stop criterion.
+Evidence: since the first milestone, every turn goes into a JSONL log, and every perception frame goes into the log byte for byte with a sha256 checksum; a ring buffer of the last 20 frames makes it possible to reproduce exactly what the model saw. From that same record a script generates timelines, trajectories, decision trees and videos. I consider this the most valuable decision, because none of the audits would have been possible without it. The timeline of a single run immediately showed two different problems: the hunter was not executing any step 43% of the time, while the miner was busy almost continuously, except that for 1650 ticks this was one chain with no stop criterion.
 
 ![Tick timeline of a run with chains, model calls and alarms](figury/f5-os-czasu-wy8.svg)
 
@@ -159,27 +161,23 @@ Monitoring changed how I work: every failure in this article was found in the re
 ## Limitations
 
 - **Two bodies, one map.** All runs involve the miner and the hunter in the same village. I do not know how the conclusions transfer to other maps and roles.
-- **A few runs, not a controlled experiment.** The essay is a reconstruction from the change history. Runs combined several changes at once, so the effect behind the first sale cannot be attributed to a single technique.
+- **A few runs, not a controlled experiment.** The analysis is a reconstruction from the change history. Runs combined several changes at once, so the effect behind the first sale cannot be attributed to a single technique.
 - **Perception test on 2 scenes.** 6 questions, 3 repetitions, a grader from the same model family as the models under test; tokens are approximate (characters divided by 3). It is a signal, not statistical proof, and a grading step of 0.5 means spreads of up to 1 point are noise.
 - **Observations are labeled as observations.** Risk avoidance (the pillagers) is a single operator observation, not checked in transcripts. The absence of map references in model responses is an observation, not a measurement of understanding.
 - **Designs are labeled as designs.** Episodes, the semantic network, the decision record, and the experiment on whether the agent understands the frame without an explanation have not been built yet. The memory figures are visualizations of logged data, not output of a working system.
 
 ## Further reading
 
-All chapters of the essay are in Polish.
+All appendices are in Polish.
 
-- Environment and architecture: [chapter 2](czesc-1-wiedza-i-interfejs-akcji/02-srodowisko.md) (Polish); question and method: [chapter 1](czesc-1-wiedza-i-interfejs-akcji/01-pytanie-i-metoda.md) (Polish).
-- Starting knowledge and how it was reworked: [chapter 3](czesc-1-wiedza-i-interfejs-akcji/03-wiedza-agentow.md) (Polish).
-- Action menu, chain validation, ETA with ranges, and menu gaps: [chapter 4](czesc-1-wiedza-i-interfejs-akcji/04-interfejs-akcji.md) (Polish).
-- Perception and body memory: [chapter 5](czesc-2-percepcja-i-metapoznanie/05-system-percepcji.md) (Polish); the frame in context and the first sale: [chapter 6](czesc-2-percepcja-i-metapoznanie/06-klatka-srodowiska.md) (Polish); projection prototype: [chapter 7](czesc-2-percepcja-i-metapoznanie/07-projekcja-3d-na-2d.md) (Polish); full model-in-the-loop results: [perception test results](dodatki/test-percepcji/wyniki.md) (Polish).
-- Error detector, tool errors and destruction, the exploration stop condition: [chapter 8](czesc-2-percepcja-i-metapoznanie/08-metapoznanie.md) (Polish).
-- Planning, turn-by-turn mode, decision trees, calibrating exploitation versus exploration: [chapter 9](czesc-2-percepcja-i-metapoznanie/09-planowanie-i-kalibracja.md) (Polish).
-- Memories, consolidation, episodes and the semantic network: [chapter 10](czesc-2-percepcja-i-metapoznanie/10-pamiec-wspomnienia-siec-znaczen.md) (Polish).
-- Frame symbols and terms: [glossary](dodatki/glosariusz.md) (Polish); raw frames, i.e. exactly what the model received: [appendices](dodatki/klatki-surowe/) (Polish); all videos: [video archive](dodatki/filmy/README.md) (Polish).
+- Full model-in-the-loop perception test: [perception test results](dodatki/test-percepcji/wyniki.md).
+- Frame symbols and terms: [glossary](dodatki/glosariusz.md).
+- Raw frames, i.e. exactly what the model received: [raw frames](dodatki/klatki-surowe/).
+- All videos with descriptions: [video archive](dodatki/filmy/README.md).
 
 ## Glossary
 
-Terms used consistently in this article, with the Polish original used in the essay, figures and logs.
+Terms used consistently in this article, with the Polish original used in figures, appendices and logs.
 
 | English term | Polish original | Meaning |
 |---|---|---|
@@ -201,3 +199,13 @@ Terms used consistently in this article, with the Polish original used in the es
 | tick | tick | Minecraft game time unit (20 ticks per second). |
 
 Polish command and error identifiers that appear verbatim in logs, figures and videos: `zbierz` (collect), `wykonaj` (execute), `eksploruj las` (explore forest), `--az` (until), `--budzet` (budget), `--zastap` (replace), `regiony` (regions), `PIJ` (drink), `stop wszystko` (stop all), `ROLA: zakaz polowania` (role: no hunting), `PLAN DNIA` (daily plan), `E_NIE_Z_MENU` (not from menu), `E_NIE_ZNALEZIONO` (not found), `E_BRAK_CELU` (no target).
+
+## Cite / Contact
+
+Author: Maciej Wrzeszcz. To refer to this work, please cite:
+
+> Maciej Wrzeszcz, *LLM agents in Minecraft: the environment decides how the agent behaves*, article v1, November 2026, https://github.com/Boragn/llm-agents-in-minecraft
+
+Contact: GitHub issues in this repository.
+
+License: text, figures and videos under CC BY 4.0, see [LICENSE](LICENSE).

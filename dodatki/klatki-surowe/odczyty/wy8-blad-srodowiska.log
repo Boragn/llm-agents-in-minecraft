@@ -1,5 +1,0 @@
-ALARM blad_srodowiska: S7 niezgodnosc_zrodel runda=1 tura=1 cialo=kupiec klasa=bot pewnosc=niska kod=- blok=- poz=- | krok mowi `limit` (trwa), log moda: k-002 zakonczony 
-ALARM blad_srodowiska: S8 rozjazd_pozycji runda=3 tura=3 cialo=lucznik klasa=srodowisko pewnosc=srednia kod=- blok=pion poz=[-232.5, 110.9, 97.4] | po 150 tickach (ETA max 40) cialo stoi 27.8 m od pozycji z symulacji (-237.0, 113.0, 70.0) (rozjazd w pion (|dy|=2: drabina/schody/luka))
-ALARM blad_srodowiska: S8 rozjazd_pozycji runda=4 tura=4 cialo=kupiec klasa=srodowisko pewnosc=srednia kod=- blok=pion poz=[-196.8, 115.9, 55.5] | po 150 tickach (ETA max 40) cialo stoi 29.0 m od pozycji z symulacji (-168.0, 113.0, 59.0) (rozjazd w pion (|dy|=3: drabina/schody/luka))
-ALARM blad_srodowiska: S7 niezgodnosc_zrodel runda=4 tura=4 cialo=lucznik klasa=bot pewnosc=niska kod=- blok=- poz=- | krok mowi `limit` (trwa), log moda: k-003 przerwany 
-ALARM blad_srodowiska: S7 niezgodnosc_zrodel runda=6 tura=6 cialo=lucznik klasa=bot pewnosc=niska kod=- blok=- poz=- | krok mowi `limit` (trwa), log moda: k-005 zakonczony 

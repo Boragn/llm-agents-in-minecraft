@@ -1,6 +1,0 @@
-ZWIERZETA 4: pamiec ciala, tylko to, co widzialo; wygasa po 15 min bez zobaczenia
-- auto-stado-sheep-2 sheep x1 (-69,107,45) 6 m NE, rozpietosc 1x1 bl., widziane 1s temu, pewnosc 1.00, wygasa za 14m58s, auto-odkrycie
-- auto-stado-rabbit-1 rabbit x1 (-81,112,37) 17 m NW, rozpietosc 1x1 bl., widziane 19s temu, pewnosc 0.98, wygasa za 14m40s, auto-odkrycie
-- auto-stado-sheep-4 sheep x1 (-78,111,26) 25 m N, rozpietosc 1x1 bl., widziane 19s temu, pewnosc 0.98, wygasa za 14m40s, auto-odkrycie
-- auto-stado-sheep-1 sheep x1 (-140,95,165) 134 m SW, rozpietosc 1x1 bl., widziane 1m32s temu, pewnosc 0.90, wygasa za 13m27s, auto-odkrycie
-

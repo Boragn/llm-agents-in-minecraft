@@ -1,6 +1,0 @@
-STAN ... bezp=BEZPIECZNY bufor=inft dyn=zmierzch:za_504s~10080t,horda:-,glod:18~19200t,pragnienie:17~13200t,ogien:-,lawa:-
-STAN ... bezp=OSTRZEZENIE bufor=2.1t pozycja=luk+mur(-160,119,70) dyn=...
-ZAGROZENIA BEZPIECZNY bufor inf = inf tur (p10, tura 150 t), pewnosc wysoka; zombie x5 4 m: nie dosiegnie, cialo 3 bl. wyzej, brak dojscia (mur bez drabiny, schodow i otwartych drzwi)
-- zombie 4m (3000,-60,1502) wrecz, widzi cie, nie dosiegnie, droga brak, pewnosc wysoka; cialo 3 bl. wyzej, ...
-- skeleton 11m (3000,-60,1511) strzal, widzi cie, 20..260 t (p50 75 t, 0.1 tur), droga 0 bl., pewnosc srednia
-NAJLEPSZA POZYCJA 1: luk+mur (3000,-57,1500) bufor inf tur, dojscie 0 t, pewnosc wysoka: linia wzroku do 5 z 5 wrogow, wrecz nie dojda

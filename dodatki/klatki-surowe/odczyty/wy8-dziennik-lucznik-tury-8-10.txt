@@ -1,9 +1,0 @@
-### 8. lucznik (2026-11-13T08:02:07Z)
-- ekwipunek: beef x2, bread x1, leather x2, wooden_axe x1 (szmaragdy 0)
-- komenda: `akcje ; wykonaj A48 2 ; wykonaj A47 ; wykonaj A48 2` (powtorzenie 1), bledy: brak
-- model: PLAN: idę do Handlarza sprzedać 2 leather (2 szmaragdy); potem mięso, a w stronę konia dalej polować na krowy. (koszt 0.185 USD)
-### 10. lucznik (2026-11-13T08:02:24Z)
-- ekwipunek: beef x2, bread x1, emerald x2, wooden_axe x1 (szmaragdy 2)
-- komenda: `brak` (powtorzenie 0), bledy: brak
-- model: PLAN: kontynuuje lancuch do Handlarza, sprzedaz beef i leather. (koszt 0.154 USD)
-- Nowa notatka 28: handel handel-handlarz handlarz butcher p1 "Handlarz" (-198,115,55): #1 1 leather->1 emerald; #2 2 beef->1 emerald; #3 2 porkchop->1 emerald; #4 2 mutton->1 emerald; #5 2 chicken->1 emerald; #6 8 feather->1 emeral

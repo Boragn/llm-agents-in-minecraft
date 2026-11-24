@@ -1,6 +1,6 @@
 # Filmy percepcji agenta
 
-[dodatki](../README.md) · archiwum filmów; w eseju są wplecione w tekst: Film 1 do 6 (WY-8) w rozdziałach [5](../../czesc-2-percepcja-i-metapoznanie/05-system-percepcji.md), [6](../../czesc-2-percepcja-i-metapoznanie/06-klatka-srodowiska.md), [7](../../czesc-2-percepcja-i-metapoznanie/07-projekcja-3d-na-2d.md), [8](../../czesc-2-percepcja-i-metapoznanie/08-metapoznanie.md), [9](../../czesc-2-percepcja-i-metapoznanie/09-planowanie-i-kalibracja.md) i [10](../../czesc-2-percepcja-i-metapoznanie/10-pamiec-wspomnienia-siec-znaczen.md), Film 7 do 9 (WY-9) w rozdziałach [8.1.5](../../czesc-2-percepcja-i-metapoznanie/08-metapoznanie.md) i [9.2](../../czesc-2-percepcja-i-metapoznanie/09-planowanie-i-kalibracja.md)
+[artykuł](../../README.pl.md) · [article (EN)](../../README.md) · [dodatki](../README.md) · archiwum filmów; w artykule są osadzone Film 7 (Borys, sekcja 4) i Film 4 (Wilga, sekcja 5)
 
 Krótkie filmy ze świata gry tak, jak widzi go ciało bota: widok z oczu, rzut 2,5D i jego pochodne (mapa 2D, warstwy 3D, radar), ekwipunek, wyposażenie, rola, a od WY-9 także pasek decyzji modelu i oś decyzji całego przebiegu. GIF jest formatem głównym (odtwarza się w podglądzie GitHuba i na każdym hoście; MP4 z H.264 nie na każdym).
 
@@ -14,7 +14,7 @@ Przebieg WY-9: 11 kroków po 150 ticków (ticki 1851520 … 1853170), model Sonn
 | Film 8. Eksploracja zwierzyny (A25), błąd kroku `E_BRAK_DROGI`, „idź do kury” (A2) w kolejce za eksploracją, potem `E_NIE_ZNALEZIONO` i `E_BRAK_CELU`; polowania nie było | Wilga (łowczyni) | 1851670 … 1852940 | 24 s | [wy9-wilga-eksploracja-zwierzyny.gif](wy9-wilga-eksploracja-zwierzyny.gif) | [png](klatka-kontrolna-wy9-wilga-eksploracja-zwierzyny.png) |
 | Film 9. Para w kroku 11: Borys A71 + A68 (łańcuch przerwany `E_BRAK_CELU` na kroku 2), Wilga A19 (krok 1/2 zrobiony, łańcuch niedokończony na końcu danych) | Borys i Wilga | 1853020 … 1853170 | 16 s | [wy9-para-krok-11.gif](wy9-para-krok-11.gif) | [png](klatka-kontrolna-wy9-para-krok-11.png) |
 
-Każdy GIF ma do ok. 3 MB. MP4 można dorobić flagą `--mp4`.
+Każdy GIF ma do ok. 3 MB.
 
 ### Pasek decyzji i oś decyzji (nowe w WY-9)
 
@@ -39,26 +39,26 @@ Lewa połowa Borys, prawa Wilga, ten sam tick. Każde ciało: widok z oczu D (62
 | (b) marsz na zachód, ścięcie całego drzewa, craft stołu | Borys (górnik) | 1848317 … 1850400 | 25 s | [borys-eksploracja-i-drzewo.gif](wy8/borys-eksploracja-i-drzewo.gif) | [mp4](wy8/borys-eksploracja-i-drzewo.mp4) |
 | (c) wszystkie przekroje w jednym miejscu, obrót kamery | Borys w domku | 1848167 | 16 s | [borys-przekroje-domek.gif](wy8/borys-przekroje-domek.gif) | [mp4](wy8/borys-przekroje-domek.mp4) |
 
-### Gdzie są osadzone
+### Numeracja filmów
 
-| film | plik | pierwsze osadzenie | powtórzenia |
-|---|---|---|---|
-| Film 1 | wy8/borys-przekroje-domek.gif | rozdz. 5.2 (widoki 2D, 3D, 2,5D, radar, z oczu) | rozdz. 7 (projekcja 3D na 2D) |
-| Film 2 | wy8/klip-borys-2d-25d-3d.gif (klip 9 s) | rozdz. 5.2 | |
-| Film 3 | wy8/borys-eksploracja-i-drzewo.gif | rozdz. 5.4 (eksploracja) | rozdz. 8 (odruch kontra rozważanie), rozdz. 9 (plan i realizacja) |
-| Film 4 | wy8/wilga-polowanie-i-sprzedaz.gif | rozdz. 5.6 (przejęcie łupu, pętla zarobku) | rozdz. 6 (sprzedaż), rozdz. 10 (anatomia epizodu, rzut z peaku) |
-| Film 5 | wy8/klip-wilga-oczy-mgla.gif (klip 8 s) | rozdz. 5.8 (co model widzi) | |
-| Film 6 | wy8/klip-borys-radar-25d.gif (klip 8 s) | rozdz. 7 (radar na rzucie 2,5D) | |
-| Film 7 | wy9-borys-eksploracja-i-polowanie.gif | rozdz. 8.1.5 (eksploracja z celem) | |
-| Film 8 | wy9-wilga-eksploracja-zwierzyny.gif | rozdz. 8.1.5 | |
-| Film 9 | wy9-para-krok-11.gif | rozdz. 9.2 (plan a wybór z menu) | |
+| film | plik | w artykule |
+|---|---|---|
+| Film 1 | [wy8/borys-przekroje-domek.gif](wy8/borys-przekroje-domek.gif) | |
+| Film 2 | [wy8/klip-borys-2d-25d-3d.gif](wy8/klip-borys-2d-25d-3d.gif) (klip 9 s) | |
+| Film 3 | [wy8/borys-eksploracja-i-drzewo.gif](wy8/borys-eksploracja-i-drzewo.gif) | |
+| Film 4 | [wy8/wilga-polowanie-i-sprzedaz.gif](wy8/wilga-polowanie-i-sprzedaz.gif) | sekcja 5 (monitoring) |
+| Film 5 | [wy8/klip-wilga-oczy-mgla.gif](wy8/klip-wilga-oczy-mgla.gif) (klip 8 s) | |
+| Film 6 | [wy8/klip-borys-radar-25d.gif](wy8/klip-borys-radar-25d.gif) (klip 8 s) | |
+| Film 7 | [wy9-borys-eksploracja-i-polowanie.gif](wy9-borys-eksploracja-i-polowanie.gif) | sekcja 4 (planowanie) |
+| Film 8 | [wy9-wilga-eksploracja-zwierzyny.gif](wy9-wilga-eksploracja-zwierzyny.gif) | |
+| Film 9 | [wy9-para-krok-11.gif](wy9-para-krok-11.gif) | |
 
 Klatka kontrolna WY-8 (widok z oczu ograniczony percepcją, mgła nieznanego): [wy8/klatka-kontrolna-wilga.png](wy8/klatka-kontrolna-wilga.png).
 Migawka danych WY-8: log ciał do ticku 1850460, pamięć ciał zapisana do ticku 1849300. Migawka WY-9: log ciał do ticku 1853170, pamięć ciał zapisana do ticku 1852860.
 
 ## Układ kadru (1280x784, GIF do 1000 px)
 
-Ten sam schemat co figury eseju: **2,5D jest widokiem bazowym agenta**, a pozostałe widoki są jego pochodnymi, oznaczonymi literą źródła i miniaturą 2,5D z podświetloną częścią, z której pochodzą.
+Ten sam schemat co figury: **2,5D jest widokiem bazowym agenta**, a pozostałe widoki są jego pochodnymi, oznaczonymi literą źródła i miniaturą 2,5D z podświetloną częścią, z której pochodzą.
 
 | miejsce | co pokazuje |
 |---|---|
@@ -75,19 +75,9 @@ Ten sam schemat co figury eseju: **2,5D jest widokiem bazowym agenta**, a pozost
 
 **Rzut z peaku.** W kulminacji zdarzenia (zabicie, sprzedaż, zakup, ścięcie drzewa, craft, błąd) film zatrzymuje się na 1,5 s, a na rzucie 2,5D (w filmie pary: na widoku z oczu tego ciała) pojawia się ramka „RZUT Z PEAKU” w układzie komendy `klatka --skrot`: stan, afordancje, ekwipunek, najbliższe obiekty z kierunkiem i odległością. Skrót w filmie jest liczony offline z tych samych danych (wiedza ciała, ekwipunek, byty, miejsca).
 
-## Uruchomienie
+## Jak powstały
 
-```
-cd figury
-python3 -I filmy.py --wy9 --tmp <katalog_tymczasowy>                             # trzy filmy WY-9 i klatki kontrolne (ok. 3 min)
-python3 -I filmy.py --przebieg wy9 --cialo kupiec --od 1851670 --do 1853020 --klatka 1852467 --wyjscie /tmp/kadr.png   # jedna klatka
-python3 -I filmy.py --przebieg wy9 --cialo lucznik --od 1851670 --do 1852940 --sekund 20 --wyjscie /tmp/wilga.gif
-python3 -I filmy.py --wszystkie --tmp <katalog_tymczasowy>                       # filmy WY-8 do wy8/ (klatki percepcji WY-8 już nadpisane)
-python3 -I filmy.py --klipy                                                      # klipy WY-8 do wy8/
-python3 -m unittest test_filmy                                                   # testy renderera na syntetycznej siatce
-```
-
-Wymaga: Python 3 z Pillow, `ffmpeg` (GIF z paletą z różnic klatek; MP4 przez `libopenh264`, a gdy to tylko zaślepka, VP9 w kontenerze MP4), czcionki Liberation. Bez numpy. Kadr liczy się ok. 0,2 s (para 0,4 s); powtórzone klatki zatrzymań liczą się raz. GIF dostaje mniej kolorów i mniejszą szerokość, aż zmieści się w limicie (WY-9: 3 MB). Wynik nie ma metadanych (`-map_metadata -1`, `+bitexact`). Generator tylko czyta dane; nie dotyka serwera, ciał ani świata.
+Generator filmów nie jest publikowany (czyta prywatne zapisy przebiegów i kopię świata). Wymagał Pythona 3 z Pillow, `ffmpeg` (GIF z paletą z różnic klatek; MP4 przez `libopenh264`, a gdy to tylko zaślepka, VP9 w kontenerze MP4), czcionek Liberation. Bez numpy. Kadr liczy się ok. 0,2 s (para 0,4 s); powtórzone klatki zatrzymań liczą się raz. GIF dostaje mniej kolorów i mniejszą szerokość, aż zmieści się w limicie (WY-9: 3 MB). Wynik nie ma metadanych (`-map_metadata -1`, `+bitexact`). Generator tylko czyta dane; nie dotyka serwera, ciał ani świata.
 
 ## Źródła danych (tylko odczyt, katalog projektu gry)
 
@@ -99,7 +89,7 @@ Wymaga: Python 3 z Pillow, `ffmpeg` (GIF z paletą z różnic klatek; MP4 przez 
 | zwierzęta i NPC | sekcja BYTY klatek percepcji ciała (plik użyty tylko, gdy tick w nagłówku zgadza się z logiem) |
 | rundy, wywołania modelu, PLAN, wyzwalacze, błędy kroku, polecenia `wykonaj`, opis pozycji menu | przebieg WY-8 albo WY-9: `rundy.jsonl`, `dziennik.jsonl`, `tury/*.jsonl`, `klatki/*.txt` |
 | kim jest, czego chce | pliki ról górnika i łowczyni |
-| paleta, nazwy miejsc po polsku, kierunki, łańcuchy | `figury/figury.py` (importowany) |
+| paleta, nazwy miejsc po polsku, kierunki, łańcuchy | generator figur (niepublikowany) |
 
 ## Metoda i ograniczenia
 

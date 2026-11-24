@@ -1,2 +1,0 @@
-ink_sac x116, leather_flask x1, mutton x3, oak_log x3, oak_planks x4, purified_water_bottle x3, rotten_flesh x8, white_wool x2
-

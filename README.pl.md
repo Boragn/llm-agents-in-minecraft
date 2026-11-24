@@ -1,8 +1,10 @@
 # Agent LLM w Minecrafcie: o zachowaniu decyduje środowisko
 
-*English version: [README.md](README.md). Pełny esej inżynierski: [esej-indeks.md](esej-indeks.md).*
+*Języki: [English](README.md) · Polski (ten plik)*
 
-*Artykuł v1, listopad 2026. Skrót eseju inżynierskiego [„Wiedza, menu akcji, percepcja i metapoznanie”](esej-indeks.md) przepisany na rekomendacje. Każda liczba pochodzi z eseju albo z [wyników testu percepcji](dodatki/test-percepcji/wyniki.md).*
+**Mapa repozytorium:** ten artykuł po polsku i ten sam artykuł po angielsku ([README.md](README.md)) · [figury/](figury/): figury użyte w artykule · [dodatki/](dodatki/README.md): dodatki (test percepcji, glosariusz, surowe klatki, filmy)
+
+*Artykuł v1, listopad 2026, powstał na podstawie dłuższego eseju inżynierskiego i jest przepisany na rekomendacje; każda liczba pochodzi z zapisów przebiegów albo z [wyników testu percepcji](dodatki/test-percepcji/wyniki.md).*
 
 ## Streszczenie
 
@@ -132,7 +134,7 @@ Tam, gdzie najkrótsza droga była sensowna, model planował dobrze i tanio: pę
 ## 5. Monitoring: obserwuj agenta tak, jak czyta go człowiek
 
 **Jeden zapis tekstowy, z którego deterministycznie powstają wszystkie widoki.**
-Dowód: od pierwszego kamienia milowego każda tura trafia do dziennika JSONL, a każda klatka percepcji do dziennika bajt w bajt z sumą sha256; pierścień 20 ostatnich klatek pozwala odtworzyć dokładnie to, co model widział. Z tego samego zapisu skrypt generuje oś czasu, trajektorie, drzewa decyzji i filmy. W eseju nazywam tę decyzję najcenniejszą, bo bez niej żaden z audytów nie byłby możliwy. Oś czasu jednego przebiegu pokazała od razu dwa różne problemy: łowczyni przez 43% czasu nie wykonywała żadnego kroku, a górnik prawie bez przerw, tylko że przez 1650 ticków w jednym łańcuchu bez kryterium końca.
+Dowód: od pierwszego kamienia milowego każda tura trafia do dziennika JSONL, a każda klatka percepcji do dziennika bajt w bajt z sumą sha256; pierścień 20 ostatnich klatek pozwala odtworzyć dokładnie to, co model widział. Z tego samego zapisu skrypt generuje oś czasu, trajektorie, drzewa decyzji i filmy. Uważam tę decyzję za najcenniejszą, bo bez niej żaden z audytów nie byłby możliwy. Oś czasu jednego przebiegu pokazała od razu dwa różne problemy: łowczyni przez 43% czasu nie wykonywała żadnego kroku, a górnik prawie bez przerw, tylko że przez 1650 ticków w jednym łańcuchu bez kryterium końca.
 
 ![Oś ticków przebiegu z łańcuchami, wywołaniami modelu i alarmami](figury/f5-os-czasu-wy8.svg)
 
@@ -159,18 +161,24 @@ Monitoring zmienił sposób pracy: każda porażka z tego artykułu została zna
 ## Ograniczenia
 
 - **Dwa ciała, jedna mapa.** Wszystkie przebiegi to górnik i łowczyni w tej samej wiosce. Nie wiem, jak wnioski przenoszą się na inne mapy i role.
-- **Kilka przebiegów, nie eksperyment kontrolowany.** Esej jest rekonstrukcją z historii zmian. Przebiegi łączyły kilka zmian naraz, więc efektu pierwszej sprzedaży nie da się przypisać jednej technice.
+- **Kilka przebiegów, nie eksperyment kontrolowany.** Analiza jest rekonstrukcją z historii zmian. Przebiegi łączyły kilka zmian naraz, więc efektu pierwszej sprzedaży nie da się przypisać jednej technice.
 - **Test percepcji na 2 scenach.** 6 pytań, 3 powtórzenia, oceniający z tej samej rodziny modeli co testowane; tokeny liczone w przybliżeniu (znaki podzielone przez 3). To sygnał, nie dowód statystyczny, a krok oceny 0,5 oznacza, że rozrzuty do 1 punktu to szum.
 - **Obserwacje oznaczone jako obserwacje.** Omijanie ryzyka (pillagerzy) to jedna obserwacja operatora, niesprawdzona w transkryptach. Brak odwołań do mapy w odpowiedziach modelu to obserwacja, nie pomiar rozumienia.
 - **Projekty oznaczone jako projekty.** Epizody, sieć znaczeń, rekord decyzji i eksperyment o tym, czy agent rozumie klatkę bez objaśnienia, nie są jeszcze zrobione. Rysunki pamięci to wizualizacje danych z logów, nie wynik działającego systemu.
 
 ## Jak czytać dalej
 
-- Środowisko i architektura: [rozdział 2](czesc-1-wiedza-i-interfejs-akcji/02-srodowisko.md); pytanie i metoda: [rozdział 1](czesc-1-wiedza-i-interfejs-akcji/01-pytanie-i-metoda.md).
-- Wiedza startowa i jej przetworzenie: [rozdział 3](czesc-1-wiedza-i-interfejs-akcji/03-wiedza-agentow.md).
-- Menu akcji, walidacja łańcucha, ETA z przedziałem i luki menu: [rozdział 4](czesc-1-wiedza-i-interfejs-akcji/04-interfejs-akcji.md).
-- Percepcja i pamięć ciała: [rozdział 5](czesc-2-percepcja-i-metapoznanie/05-system-percepcji.md); klatka w kontekście i pierwsza sprzedaż: [rozdział 6](czesc-2-percepcja-i-metapoznanie/06-klatka-srodowiska.md); prototyp rzutów: [rozdział 7](czesc-2-percepcja-i-metapoznanie/07-projekcja-3d-na-2d.md); pełne wyniki testu z modelem: [wyniki testu percepcji](dodatki/test-percepcji/wyniki.md).
-- Detektor błędów, błędy narzędzi i destrukcja, warunek końca eksploracji: [rozdział 8](czesc-2-percepcja-i-metapoznanie/08-metapoznanie.md).
-- Planowanie, tryb tura po turze, drzewa decyzji, kalibracja eksploatacji i eksploracji: [rozdział 9](czesc-2-percepcja-i-metapoznanie/09-planowanie-i-kalibracja.md).
-- Wspomnienia, konsolidacja, epizody i sieć znaczeń: [rozdział 10](czesc-2-percepcja-i-metapoznanie/10-pamiec-wspomnienia-siec-znaczen.md).
-- Symbole klatki i pojęcia: [glosariusz](dodatki/glosariusz.md); surowe klatki, czyli dokładnie to, co dostał model: [dodatki](dodatki/klatki-surowe/); wszystkie filmy: [archiwum filmów](dodatki/filmy/README.md).
+- Pełny test percepcji z modelem w pętli: [wyniki testu percepcji](dodatki/test-percepcji/wyniki.md).
+- Symbole klatki i pojęcia: [glosariusz](dodatki/glosariusz.md).
+- Surowe klatki, czyli dokładnie to, co dostał model: [surowe klatki](dodatki/klatki-surowe/).
+- Wszystkie filmy z opisami: [archiwum filmów](dodatki/filmy/README.md).
+
+## Cytowanie i kontakt
+
+Autor: Maciej Wrzeszcz. Przy powoływaniu się na tę pracę proszę cytować:
+
+> Maciej Wrzeszcz, *Agent LLM w Minecrafcie: o zachowaniu decyduje środowisko*, artykuł v1, listopad 2026, https://github.com/Boragn/llm-agents-in-minecraft
+
+Kontakt: zgłoszenia (issues) na GitHubie w tym repozytorium.
+
+Licencja: tekst, figury i filmy na CC BY 4.0, zob. [LICENSE](LICENSE).

@@ -1,2 +1,0 @@
-STAN cialo=lucznik tick=1845807 dzien=77 poz=(-355.6,72.0,79.6) BLOK=(-356,72,79) hp=20.0/20.0 glod=20 nasycenie=18.0 pragnienie=10/20 stamina=94.5 wyczerpany=nie reka=minecraft:oak_logx3 klatka=276 budzet=wl sr=1.74ms p99=5.43ms przekr=4 pora=dzien do_zmierzchu=3930t/196s do_nocy=4930t/246s
-

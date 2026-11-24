@@ -1,6 +1,8 @@
 # Wyniki testu percepcji
 
-Protokol: `protokol.md` (bez zmian). Ocena: subagent Sonnet, wsady po 24 pozycje w losowej kolejnosci, bez nazwy wariantu i modelu (dane: `oceny.jsonl`). Trafnosc = suma ocen (1 / 0,5 / 0) z 6 pytan (2 sceny x 3), srednia z 3 powtorzen. Tokeny = znaki pliku / 3 (wc -c), srednia z 2 scen.
+[artykuł](../../README.pl.md) · [article (EN)](../../README.md) · [dodatki](../README.md)
+
+Wejscia: rzuty klatka, p1, p2 i p4 dwoch scen w [surowych klatkach](../klatki-surowe/README.md). Ocena: subagent Sonnet, wsady po 24 pozycje w losowej kolejnosci, bez nazwy wariantu i modelu. Trafnosc = suma ocen (1 / 0,5 / 0) z 6 pytan (2 sceny x 3), srednia z 3 powtorzen. Tokeny = znaki pliku / 3 (wc -c), srednia z 2 scen.
 
 ## Razem (2 sceny, 6 pytan)
 
@@ -47,14 +49,14 @@ Hipoteza: p4 i p2 daja wyzsza trafnosc niz obecna klatka przy mniejszej liczbie 
 - Haiku: klatka 4,33 vs p4 5,50 vs p2 5,33. Sonnet: klatka 4,50 vs p4 4,67 vs p2 5,33.
 - Klatka nie jest nie nizsza niz p4 dla zadnego modelu, wiec warunek obalenia nie zachodzi. Tokeny: p4 to ok. 1571 (klatka 2998), p2 to ok. 495.
 - **Hipoteza potwierdzona co do kierunku, z dwoma zastrzezeniami:** (1) dla Sonneta p4 vs klatka to roznica 0,17 przy nakladajacych sie rozrzutach (4,0-5,5 vs 4,0-5,0), czyli dla tej pary wynik nierozstrzygniety; wyrazna przewaga p4 jest tylko dla Haiku. (2) p2 (afordancje z tabela radaru) wygrywa najczytelniej: wyzsza trafnosc u obu modeli (5,33 vs 4,33 i 4,50) przy ok. 6 razy mniejszej liczbie tokenow (trafnosc na 1000 tok. 10,8 vs 1,5).
-- p1 (przejezdnosc 2,5D) jest najslabszy: nizszy niz klatka u obu modeli, przy podobnym koszcie tokenow. Nie jest czescia hipotezy, ale warto odnotowac przy rozdziale 2.
+- p1 (przejezdnosc 2,5D) jest najslabszy: nizszy niz klatka u obu modeli, przy podobnym koszcie tokenow. Nie jest czescia hipotezy, ale warto to odnotowac.
 
 ## Zastrzezenia
 
 - 2 sceny i 6 pytan: sygnal, nie dowod statystyczny. Jeden krok oceny to 0,5, wiec rozrzuty 0,5-1,0 to szum.
 - Scena mur-horda jest syntetyczna; p2 zawiera gotowe afordancje i tabele radaru, wiec model w czesci kopiuje odpowiedz z pliku, a nie wnioskuje z rzutu. To mierzy uzytecznosc formatu, nie wnioskowanie z mapy.
-- Powtorzenie 1 Haiku przepisal orkiestrator (czesc skrocona bez zmiany tresci, protokol pkt Uwaga); pozostale odpowiedzi model zapisal sam.
+- Powtorzenie 1 Haiku przepisal agent prowadzacy test (czesc skrocona bez zmiany tresci); pozostale odpowiedzi model zapisal sam.
 - Oceniajacy to jedna instancja Sonneta (te same wsady, bez powtorzen oceny); modele testowane i oceniajacy to ta sama rodzina, mozliwe ukryte przychylnosc lub blad systematyczny. Prawda dla q3 domku (dziura w podlodze) bywa trudna dla kazdego wariantu.
 - Tokeny to przyblizenie znaki/3, nie licznik tokenizera.
 
-Figura: `fig-trafnosc-tokeny.svg` (kropka: srednia, kreska: min-max).
+Figura: [fig-trafnosc-tokeny.svg](fig-trafnosc-tokeny.svg) (kropka: srednia, kreska: min-max).

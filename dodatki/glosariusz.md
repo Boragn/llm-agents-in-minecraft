@@ -1,6 +1,6 @@
 # Glosariusz: pojęcia i symbole klatki
 
-[indeks](../esej-indeks.md) · [dodatki](README.md)
+[artykuł](../README.pl.md) · [article (EN)](../README.md) · [dodatki](README.md)
 
 ## Pojęcia
 
@@ -11,10 +11,10 @@
 - **Tryb zdarzeniowy:** świat idzie krokami po 150 t, model jest wołany tylko przy wyzwalaczu.
 - **Wywołanie produktywne:** wywołanie modelu, po którym w świecie przybyło przedmiotu, craftu albo odkrycia.
 - **Harness:** skrypt, który woła model, przesuwa świat, czyta logi i zapisuje dziennik przebiegu.
-- **Klatka percepcji:** tekst, który ciało zwraca na `percepcja` (STAN, STRESZCZENIE, SIATKA, BYTY, ZDARZENIA), opisany w [rozdziale 5](../czesc-2-percepcja-i-metapoznanie/05-system-percepcji.md).
-- **Klatka środowiska:** gotowy tekst wkładany przez harness do każdego wywołania (STAN, mapa 3D, mapa 2D, miejsca, trasa, ślad), opisany w [rozdziale 6](../czesc-2-percepcja-i-metapoznanie/06-klatka-srodowiska.md).
+- **Klatka percepcji:** tekst, który ciało zwraca na `percepcja` (STAN, STRESZCZENIE, SIATKA, BYTY, ZDARZENIA).
+- **Klatka środowiska:** gotowy tekst wkładany przez harness do każdego wywołania (STAN, mapa 3D, mapa 2D, miejsca, trasa, ślad); przykłady w [surowych klatkach](klatki-surowe/README.md).
 - **Afordancja:** to, co ciało może zrobić z danym miejscem albo obiektem (wejdziesz, zejdziesz, otworzysz, dojdą), opisana wprost w tekście.
-- **Metapoznanie, poziom 1, 2, 3:** system o sobie, agent o systemie, bot o własnym planie ([rozdział 8](../czesc-2-percepcja-i-metapoznanie/08-metapoznanie.md)).
+- **Metapoznanie, poziom 1, 2, 3:** system o sobie, agent o systemie, bot o własnym planie.
 
 ## Mapa 3D klatki (warstwy y+3 .. y-2)
 

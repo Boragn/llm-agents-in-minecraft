@@ -1,9 +1,0 @@
-sygnał,co wykrywa
-S1 powtórzony błąd,ta sama akcja i ten sam kod N razy z rzędu
-S2 rozjazd symulacji,"symulacja mówi „wykonalny”, a krok pada w pierwszym ticku"
-S3 stoi mimo łańcucha,"łańcuch przyjęty, pozycja i ekwipunek bez zmian przez 3 obserwacje"
-S4 blok przeszkoda,"co najmniej 3 zdarzenia ruchu (cel w bloku, brak drogi, utknięcie, przeplanowanie) w promieniu 3 m"
-S5 niszczenie po błędzie,po błędzie narzędzia ciało zbiera albo kopie element zabudowy
-S6 krążenie,"długa droga, małe przesunięcie netto, powroty do tej samej komórki (wina bota)"
-S7 niezgodność źródeł,"krok mówi „trwa”, log moda mówi „przerwany” (sygnał pomocniczy)"
-S8 rozjazd pozycji,po kroku ciało jest ponad 4 m od pozycji z symulacji
