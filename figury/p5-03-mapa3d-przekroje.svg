@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" shape-rendering="crispEdges">
+<rect width="1000" height="330" fill="#0f1218"/>
+<text x="12.0" y="22.0" font-family="sans-serif" font-size="15" fill="#d8dee9" text-anchor="start" font-weight="bold">Mapa 3D z pamieci ciala: dwa przekroje przez pozycje Borysa (odczyt `mapa3d` po WY-6)</text>
+<rect x="820.0" y="60.0" width="170.0" height="120.0" fill="#0f1218" rx="6" stroke="#f0a04b" stroke-width="1.5"/>
+<polygon points="818.0,126.0 882.0,94.0 946.0,126.0 882.0,158.0" fill="#3d5a2f" stroke="#2c3646"/>
+<polygon points="843.6,126.0 882.0,106.8 920.4,126.0 882.0,145.2" fill="#f0a04b" fill-opacity="0.18" stroke="#f0a04b"/>
+<polygon points="843.6,120.2 882.0,101.0 920.4,120.2 882.0,139.4" fill="#f0a04b" fill-opacity="0.18" stroke="#f0a04b"/>
+<polygon points="843.6,114.5 882.0,95.3 920.4,114.5 882.0,133.7" fill="#f0a04b" fill-opacity="0.18" stroke="#f0a04b"/>
+<polygon points="843.6,108.7 882.0,89.5 920.4,108.7 882.0,127.9" fill="#f0a04b" fill-opacity="0.18" stroke="#f0a04b"/>
+<polygon points="843.6,103.0 882.0,83.8 920.4,103.0 882.0,122.2" fill="#f0a04b" fill-opacity="0.18" stroke="#f0a04b"/>
+<polygon points="843.6,97.2 882.0,78.0 920.4,97.2 882.0,116.4" fill="#f0a04b" fill-opacity="0.18" stroke="#f0a04b"/>
+<circle cx="882.0" cy="124.2" r="4.0" fill="#ffd36b" stroke="#000000" stroke-width="1.5"/>
+<text x="849.8" y="106.4" font-family="sans-serif" font-size="11" fill="#e5565b" text-anchor="start" font-weight="bold">N</text>
+<text x="980.0" y="90.0" font-family="sans-serif" font-size="26" fill="#f0a04b" text-anchor="end" font-weight="bold">B</text>
+<text x="828.0" y="76.0" font-family="sans-serif" font-size="11" fill="#f0a04b" text-anchor="start" font-weight="bold">z 2,5D →</text>
+<text x="828.0" y="172.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">przekrój pionowy przez @</text>
+<text x="12.0" y="40.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">srodek=(-72,50) promien=10 warstwy y=98..112 tick=1845807 znane 2438/6615 komorek (36%)</text>
+<text x="20.0" y="66.0" font-family="sans-serif" font-size="12" fill="#d8dee9" text-anchor="start" font-weight="bold">PRZEKROJ W-E z=50 x -82..-62</text>
+<rect x="54.0" y="76.0" width="198.0" height="11.0" fill="#202733"/>
+<rect x="252.0" y="76.0" width="33.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="87.0" width="33.0" height="11.0" fill="#8a8f98"/>
+<rect x="87.0" y="87.0" width="165.0" height="11.0" fill="#202733"/>
+<rect x="252.0" y="87.0" width="33.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="98.0" width="33.0" height="11.0" fill="#1c222c"/>
+<rect x="87.0" y="98.0" width="33.0" height="11.0" fill="#8a8f98"/>
+<rect x="120.0" y="98.0" width="143.0" height="11.0" fill="#202733"/>
+<rect x="263.0" y="98.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="109.0" width="66.0" height="11.0" fill="#1c222c"/>
+<rect x="120.0" y="109.0" width="11.0" height="11.0" fill="#8a8f98"/>
+<rect x="131.0" y="109.0" width="132.0" height="11.0" fill="#202733"/>
+<rect x="263.0" y="109.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="120.0" width="77.0" height="11.0" fill="#1c222c"/>
+<rect x="131.0" y="120.0" width="22.0" height="11.0" fill="#8a8f98"/>
+<rect x="153.0" y="120.0" width="110.0" height="11.0" fill="#202733"/>
+<rect x="263.0" y="120.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="131.0" width="99.0" height="11.0" fill="#1c222c"/>
+<rect x="153.0" y="131.0" width="11.0" height="11.0" fill="#8a8f98"/>
+<rect x="164.0" y="131.0" width="99.0" height="11.0" fill="#202733"/>
+<rect x="263.0" y="131.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="142.0" width="99.0" height="11.0" fill="#1c222c"/>
+<rect x="153.0" y="142.0" width="11.0" height="11.0" fill="#8a8f98"/>
+<rect x="164.0" y="142.0" width="11.0" height="11.0" fill="#ffd36b"/>
+<rect x="175.0" y="142.0" width="88.0" height="11.0" fill="#202733"/>
+<rect x="263.0" y="142.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="153.0" width="110.0" height="11.0" fill="#1c222c"/>
+<rect x="164.0" y="153.0" width="11.0" height="11.0" fill="#8a8f98"/>
+<rect x="175.0" y="153.0" width="88.0" height="11.0" fill="#202733"/>
+<rect x="263.0" y="153.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="164.0" width="121.0" height="11.0" fill="#1c222c"/>
+<rect x="175.0" y="164.0" width="11.0" height="11.0" fill="#8a8f98"/>
+<rect x="186.0" y="164.0" width="77.0" height="11.0" fill="#202733"/>
+<rect x="263.0" y="164.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="175.0" width="132.0" height="11.0" fill="#1c222c"/>
+<rect x="186.0" y="175.0" width="11.0" height="11.0" fill="#8a8f98"/>
+<rect x="197.0" y="175.0" width="66.0" height="11.0" fill="#202733"/>
+<rect x="263.0" y="175.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="186.0" width="143.0" height="11.0" fill="#1c222c"/>
+<rect x="197.0" y="186.0" width="11.0" height="11.0" fill="#8a8f98"/>
+<rect x="208.0" y="186.0" width="55.0" height="11.0" fill="#202733"/>
+<rect x="263.0" y="186.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="197.0" width="231.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="208.0" width="231.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="219.0" width="231.0" height="11.0" fill="#1c222c"/>
+<rect x="54.0" y="230.0" width="231.0" height="11.0" fill="#1c222c"/>
+<text x="48.0" y="85.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 112</text>
+<text x="48.0" y="107.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 110</text>
+<text x="48.0" y="129.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 108</text>
+<text x="48.0" y="151.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 106</text>
+<text x="48.0" y="173.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 104</text>
+<text x="48.0" y="195.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 102</text>
+<text x="48.0" y="217.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 100</text>
+<text x="48.0" y="239.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 98</text>
+<circle cx="169.5" cy="147.5" r="5.5" fill="#ffd36b" stroke="#000000" stroke-width="1.5"/>
+<text x="490.0" y="66.0" font-family="sans-serif" font-size="12" fill="#d8dee9" text-anchor="start" font-weight="bold">PRZEKROJ N-S x=-72 z 40..60</text>
+<rect x="524.0" y="76.0" width="209.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="76.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="87.0" width="209.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="87.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="98.0" width="209.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="98.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="109.0" width="55.0" height="11.0" fill="#8a8f98"/>
+<rect x="579.0" y="109.0" width="154.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="109.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="120.0" width="55.0" height="11.0" fill="#1c222c"/>
+<rect x="579.0" y="120.0" width="22.0" height="11.0" fill="#8a8f98"/>
+<rect x="601.0" y="120.0" width="132.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="120.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="131.0" width="66.0" height="11.0" fill="#1c222c"/>
+<rect x="590.0" y="131.0" width="22.0" height="11.0" fill="#8a8f98"/>
+<rect x="612.0" y="131.0" width="121.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="131.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="142.0" width="77.0" height="11.0" fill="#1c222c"/>
+<rect x="601.0" y="142.0" width="33.0" height="11.0" fill="#8a8f98"/>
+<rect x="634.0" y="142.0" width="11.0" height="11.0" fill="#ffd36b"/>
+<rect x="645.0" y="142.0" width="88.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="142.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="153.0" width="88.0" height="11.0" fill="#1c222c"/>
+<rect x="612.0" y="153.0" width="55.0" height="11.0" fill="#8a8f98"/>
+<rect x="667.0" y="153.0" width="66.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="153.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="164.0" width="121.0" height="11.0" fill="#1c222c"/>
+<rect x="645.0" y="164.0" width="33.0" height="11.0" fill="#8a8f98"/>
+<rect x="678.0" y="164.0" width="55.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="164.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="175.0" width="154.0" height="11.0" fill="#1c222c"/>
+<rect x="678.0" y="175.0" width="22.0" height="11.0" fill="#8a8f98"/>
+<rect x="700.0" y="175.0" width="33.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="175.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="186.0" width="165.0" height="11.0" fill="#1c222c"/>
+<rect x="689.0" y="186.0" width="22.0" height="11.0" fill="#8a8f98"/>
+<rect x="711.0" y="186.0" width="22.0" height="11.0" fill="#202733"/>
+<rect x="733.0" y="186.0" width="22.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="197.0" width="231.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="208.0" width="231.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="219.0" width="231.0" height="11.0" fill="#1c222c"/>
+<rect x="524.0" y="230.0" width="231.0" height="11.0" fill="#1c222c"/>
+<text x="518.0" y="85.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 112</text>
+<text x="518.0" y="107.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 110</text>
+<text x="518.0" y="129.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 108</text>
+<text x="518.0" y="151.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 106</text>
+<text x="518.0" y="173.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 104</text>
+<text x="518.0" y="195.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 102</text>
+<text x="518.0" y="217.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 100</text>
+<text x="518.0" y="239.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="end">y 98</text>
+<circle cx="639.5" cy="147.5" r="5.5" fill="#ffd36b" stroke="#000000" stroke-width="1.5"/>
+<rect x="20.0" y="257.0" width="11.0" height="11.0" fill="#8a8f98" stroke="#2c3646"/>
+<text x="36.0" y="266.0" font-family="monospace" font-size="11" fill="#8b97aa" text-anchor="start">#  lita</text>
+<rect x="200.0" y="257.0" width="11.0" height="11.0" fill="#202733" stroke="#2c3646"/>
+<text x="216.0" y="266.0" font-family="monospace" font-size="11" fill="#8b97aa" text-anchor="start">.  powietrze</text>
+<rect x="380.0" y="257.0" width="11.0" height="11.0" fill="#1c222c" stroke="#2c3646"/>
+<text x="396.0" y="266.0" font-family="monospace" font-size="11" fill="#8b97aa" text-anchor="start">?  nieznane (pod powierzchnia, bez rentgena)</text>
+<text x="20.0" y="300.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">komora podziemna w oknie: komora-25: 34 komorek, bbox x -87..-80 y 104..108 z 60..62, glebokosc do 7, wejscie (-85,108,61) (20 komorek</text>
+<text x="20.0" y="318.0" font-family="sans-serif" font-size="11" fill="#e8d06b" text-anchor="start">Model widzi tylko powierzchnie, ktora cialo widzialo; ruda pod stokiem pozostaje `?`.</text>
+</svg>

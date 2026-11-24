@@ -1,0 +1,63 @@
+== FOVEA przejezdnosc @=(0,4,0) promien 64, 57x57 komorek
+SKALA zmienna (jak plamka zolta): 1 znak = 1 blok do 12 od Ciebie, 2 bloki do 24, 4 bloki do 64; linia 'sk' = szerokosc kolumn w blokach (od lewej dx -64..+64, symetrycznie), na poczatku wiersza dz (przesuniecie od Ciebie, ujemne = N) i jego wysokosc w blokach; Ty w srodku
+Znaki jak w mapie przejezdnosci (komorka >1 bloku: znak specjalny @ m ^ / = H K I wygrywa, inaczej najczestszy)
+   sk 444444444422222211111111111111111111111112222224444444444
+  -64 4 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+  -60 4 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+  -56 4 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+  -52 4 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+  -48 4 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+  -44 4 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -40 4 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -36 4 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -32 4 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -28 4 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -24 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -22 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -20 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -18 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -16 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -14 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -12 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -11 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+  -10 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   -9 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   -8 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   -7 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   -6 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   -5 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   -4 1 vvvvvccccccccccccccccccccccmcmccccccccccccccccccccccvvvvv
+   -3 1 vvvvvcccccccccccccccccccccccccmcccccccccccccccccccccvvvvv
+   -2 1 vvvvvcccccccccccccccccccccmcmccmccccccccccccccccccccvvvvv
+   -1 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+    0 1 vvvvvcccc....../............@....................cccvvvvv
+    1 1 vvvvvcccc......................K.................cccvvvvv
+    2 1 vvvvvcccccccccccccccccccccccccccccHcccccccccccccccccvvvvv
+    3 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+    4 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+    5 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+    6 1 vvvvvccccccccccccccccccccccccccc^cccccccccccccccccccvvvvv
+    7 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+    8 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+    9 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   10 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   11 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   12 1 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   13 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   15 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   17 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   19 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   21 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   23 2 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   25 4 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   29 4 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   33 4 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   37 4 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   41 4 vvvvvcccccccccccccccccccccccccccccccccccccccccccccccvvvvv
+   45 4 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   49 4 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   53 4 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   57 4 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   61 4 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+AFORDANCJE (TU: pod niebem; skrzynia 3m E; WROG: zombie x6 N/NW/NE 2-4m, 3 nizej, dojda (6 z 6) najkrotsza droga 44 bl. przez drzwi i drabine)
+NW,N,NE: otwarte trawa 32m, zejscie 3 w dol za 1m; E: skrzynia 3m wys 1 (wejdziesz), zejscie 3 w dol za 2m, drabina 6m 2m na prawo (od -3 do +1); SE: skrzynia 3m wys 1 (wejdziesz), zejscie 3 w dol za 2m, drabina 6m 3m na lewo (od -3 do +1), lawa/ogien 7m 1m na prawo; S,SW,W: otwarte trawa 32m, zejscie 3 w dol za 2m

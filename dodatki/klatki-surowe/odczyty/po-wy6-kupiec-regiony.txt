@@ -1,0 +1,33 @@
+REGIONY 11 (razem 11 z limitem 16; przebieg: nowe 0, zaktualizowane 11, scalone 0, pominiete 15; liczenie 75 ms)
+- auto-wzgorze-2 wzgorze 320 kolumn, bbox x -96..-73 y 102..111 z 48..63, stanowisko (-95,112,54), W 23m
+    opis: wzgorze: wystaje ok. 9 blokow nad otoczenie, szczyt y 111, ok. 320 kolumn, x -96..-73 y 102..111 z 48..63; widziane byty: sheep[zwierze]x2, rabbit[zwierze]x1
+    fakty: byty=sheep[zwierze]x2, rabbit[zwierze]x1; miejsca=auto-stado-rabbit-1, auto-stado-sheep-2, auto-stado-sheep-3
+- auto-las-4 las 38 kolumn, bbox x -88..-79 y 90..97 z 83..90, stanowisko (-84,85,86), S 38m
+    opis: las: 38 kolumn drzew, 9 pni, gestosc 97% znanej powierzchni, x -88..-79 y 90..97 z 83..90; obok: crafting_table x1
+    fakty: obiekty=crafting_table x1; obiekty_poz=crafting_table (-83,84,86); miejsca=auto-stol-3
+- auto-wzgorze-1 wzgorze 688 kolumn, bbox x -132..-113 y 103..112 z -20..31, stanowisko (-116,113,4), NW 64m
+    opis: wzgorze: wystaje ok. 8 blokow nad otoczenie, szczyt y 112, ok. 688 kolumn, x -132..-113 y 103..112 z -20..31; widziane byty: chicken[zwierze]x1
+    fakty: byty=chicken[zwierze]x1
+- auto-jaskinia-2 jaskinia 62 komorek, bbox x -151..-146 y 88..94 z -23..-17, stanowisko (-146,94,-20), NW 102m
+    opis: jaskinia: komora 62 komorek, glebokosc do 13, wejscie (-146,94,-20), niezbadane granice 0, x -151..-146 y 88..94 z -23..-17
+- auto-pole-1 pole 27 kolumn, bbox x -188..-184 y 115..115 z 17..23, stanowisko (-187,115,20), W 119m
+    opis: pole: uprawy na 27 kolumnach, x -188..-184 y 115..115 z 17..23; widziane byty: donkey[zwierze]x1, rabbit[zwierze]x1, sheep[zwierze]x1
+    fakty: byty=donkey[zwierze]x1, rabbit[zwierze]x1, sheep[zwierze]x1; miejsca=auto-composter-1
+- auto-budowla-1 budowla 1218 kolumn, bbox x -259..-149 y 109..120 z 33..148, stanowisko (-204,111,90), W 138m
+    opis: budowla: zabudowa na 1218 kolumnach (bed, bell, bookshelf, chest, cobblestone), x -259..-149 y 109..120 z 33..148; widziane byty: sheep[zwierze]x3, chicken[zwierze]x2, cow[zwierze]x2, donkey[zwierze]x1, rabbit[zwierze]x1, villager[npc]x1; obok: barrel x1, bed x16, bell x2, cartography_table x1, chest x15, crafting_table x2, door x26, furnace x4, grindstone x1, lectern x1
+    fakty: byty=sheep[zwierze]x3, chicken[zwierze]x2, cow[zwierze]x2, donkey[zwierze]x1, rabbit[zwierze]x1, villager[npc]x1; obiekty=barrel x1, bed x16, bell x2, cartography_table x1, chest x15, crafting_table x2, door x26, furnace x4, grindstone x1, lectern x1; obiekty_poz=barrel (-224,111,108); bed (-246,114,64) (-246,114,65) (-238,112,80); bell (-202,113,66) (-185,113,77); cartography_table (-240,111,90); chest (-248,114,65) (-238,111,100) (-238,113,69); crafting_table (-238,113,72) (-156,117,66); door (-247,114,62) (-247,115,62) (-236,111,90); furnace (-236,113,69) (-182,114,85) (-182,115,85); grindstone (-184,113,83); lectern (-187,113,78); miejsca=auto-beczka-1, auto-cartography-table-1, auto-grindstone-1, auto-lectern-1, auto-lozko-1, auto-lozko-2, auto-lozko-3, auto-npc-armorer-1
+- auto-las-2 las 585 kolumn, bbox x -201..-156 y 73..109 z -118..-45, stanowisko (-181,93,-54), NW 151m
+    opis: las: 585 kolumn drzew, 33 pni, gestosc 66% znanej powierzchni, x -201..-156 y 73..109 z -118..-45; widziane byty: sheep[zwierze]x3, chicken[zwierze]x1
+    fakty: byty=sheep[zwierze]x3, chicken[zwierze]x1; miejsca=auto-ruda-coal-5
+- auto-jaskinia-3 jaskinia 387 komorek, bbox x -192..-166 y 83..87 z 168..206, stanowisko (-182,87,191), SW 179m
+    opis: jaskinia: komora 387 komorek, glebokosc do 14, wejscie (-182,87,191), niezbadane granice 13, x -192..-166 y 83..87 z 168..206; widziane byty: cow[zwierze]x1
+    fakty: byty=cow[zwierze]x1; miejsca=auto-ruda-coal-2
+- auto-jaskinia-1 jaskinia 1814 komorek, bbox x -281..-255 y 54..77 z -50..-25, stanowisko (-273,77,-36), NW 219m
+    opis: jaskinia: komora 1814 komorek, glebokosc do 47, wejscie (-273,77,-36), niezbadane granice 434, rudy odslonione {coal_ore=7}, x -281..-255 y 54..77 z -50..-25; obok: crafting_table x1
+    fakty: rudy_odslonione={coal_ore=7}; obiekty=crafting_table x1; obiekty_poz=crafting_table (-261,73,-46); miejsca=auto-ruda-coal-3, auto-ruda-coal-4
+- auto-las-1 las 599 kolumn, bbox x -329..-267 y 75..110 z 88..133, stanowisko (-298,89,106), W 233m
+    opis: las: 599 kolumn drzew, 56 pni, gestosc 72% znanej powierzchni, x -329..-267 y 75..110 z 88..133; widziane byty: sheep[zwierze]x1; obok: crafting_table x1, furnace x1
+    fakty: byty=sheep[zwierze]x1; obiekty=crafting_table x1, furnace x1; obiekty_poz=crafting_table (-269,102,97); furnace (-271,101,96); miejsca=auto-piec-3, auto-stol-2
+- auto-las-3 las 39 kolumn, bbox x -287..-280 y 96..99 z 208..225, stanowisko (-284,95,216), SW 269m
+    opis: las: 39 kolumn drzew, 3 pni, gestosc 73% znanej powierzchni, x -287..-280 y 96..99 z 208..225
+

@@ -1,0 +1,110 @@
+
+KLATKA SRODOWISKA z harnessu (odczytana przed chwila, swiat stoi: jest aktualna). Nie wolaj `mapa2d` ani `mapa3d`, chyba ze potrzebujesz innego miejsca; legenda jest w klatce, opis w wiedzy `opis-klatki.md`. Z mapy 2D wynika, gdzie jestes (@), dokad prowadzi trwajacy lancuch (T i *) i gdzie bylas/byles (cyfry).
+KLATKA v1 cialo=kupiec tick=1848167 @=(-159,116,70) patrzy=NE (N = z maleje = gora mapy, E = x rosnie = prawo)
+STAN hp=20.0/20.0 glod=20 pragnienie=20/20 stamina=100.0 reka=puste pora=dzien do_zmierzchu=11000t/550s
+== MAPA3D promien=8 x -167..-151 z 62..78; warstwy od lewej (y od gory): 119 | 118 | 117 (glowa) | 116 (stopy) | 115 | 114; w kazdej warstwie wiersz = z, kolumna = x
+LEGENDA 3D: #=lita .=powietrze/roslina ~=woda ^=lawa o=ruda L=drzewo (pien, liscie) z=zabudowa H=drabina /=drzwi c=skrzynia/beczka t=stol rzemieslniczy f=piec b=lozko |=plot/mur/krata ?=nieznana @=ty (stopy) &=drugi bot
+      34567890123456789 34567890123456789 34567890123456789 34567890123456789 34567890123456789 34567890123456789
+   62 ....zzzz....zzz.. ................. ................. ......L......L... ................. .................
+   63 ....zz?zzzzzz?zz. ......z......z... ......z......z... ......L......L... ......z......z... .................
+   64 ....z??LLLLLL?Lz. .....zLzzzzzzLz.. ..||zzLzzzzzzLz.. ...|LL?LLLLLL?LL. ...|.z?zzzzzzLz.. ...|..LzzzzzzL...
+   65 ....zzL......Lzz. ......z......z... ......z.b....z... .....zLzzzzzzL... ......z......z... ......z......z...
+   66 ....zzL......Lz.. ......z......z... ......z.b.ft.z... .....zLzzzzL.L... ......z....Lzz... ...........L.z...
+   67 ....zzL......Lz.. ......L......z... ......L......z... ....zz?zzz...L... ......z.....zz... ..........zz.z...
+   68 ....zzL......Lzz. ....../......z... ....../......z... ....zzLzzzzzzL... ......z......z... ......z......z...
+   69 ....z?.LLLLLL??z. .....zL/LzzzzLz.. ..||zzL/LzzzzLz.. ...|LL.L?LLLL?LL. ...|.z.zzzzzz?z.. ...|..LzzzzzzL...
+   70 ....zz.zzzzzz?zz. ......z......z... ......z...cc.z... ......Lz@zzzz?z.. ......z......z... .................
+   71 ....zzzz....zLz.. ................. ................. ......LzzzzzzL... ................. .................
+   72 ............zzz.. ................. ................. ..........zzzL... ................. .................
+   73 ................. ................. ................. |................ ................. .................
+   74 ................. ................. ................. |................ |................ |................
+   75 ................. ................. ................. |................ ................. .................
+   76 ................. ................. ................. ................. ................. .................
+   77 ................. ................. ................. ................. ................. .................
+   78 ................. ................. ................. ................. ...............|. .................
+== MAPA2D promien=64 skala=1:2 (1 znak = 2x2 blokow) okno x -224..-95 z 5..134; poznane 3837/4225 komorek (90%)
+LEGENDA 2D teren: G=trawa L=las W=woda S=skala P=piasek D=droga Z=zabudowa (wioska) F=pole N=snieg V=lawa X=inne; wielka litera = widziane w ostatnich 60 s, mala = starsze; ?=nieznane (mgla) -=widziane bez potwierdzonej powierzchni. Znaczniki: @=ty &=drugi bot T=cel lancucha *=trasa lancucha 1..9=slad poprzednich klatek (1 = poprzednia) A..Y=miejsca z pamieci (lista MIEJSCA) o=zloze rudy a=stado zwierzat m=moby wrogie (pamiec) :=granica strefy Brzeg !=granica obszaru gry
+      79135791357913579135791357913579135791357913579135791357913579135   <- x mod 10 (srodek komorki); wiersz = z
+    6 ggggggggggggggggddggggggggggggggggggggggggggggggggggggggggggggggg
+    8 ?gggggggggggggggdgggggggggggggggggggggggggggggggggggggggggggggggg
+   10 ??ggggggggggggzgddggggggggggggggggg??gggggggggggggggggggggggggggg
+   12 ??ggggggggggggggddgggggggggggggg?????gggggggggggggggggggggggggggg
+   14 ???gggggggggggdddddggggggggggggg?????gggggggggggggggggggggggggggg
+   16 ???gggggggggggdgddgggggggggggg???????gggggggggggggggggggggggggggg
+   18 ????ggggggggggggddfwggggggggg????????gggggggggggggggggggggggggggg
+   20 ????ggggggggggggddfwgggggggggg???????ggggggggggggggggggggggggggg?
+   22 ????ggggggggggggddfwgggggggggggg?????-gggggggggggggggggggggggggg?
+   24 ????ggggggggggggddggggggggggggggg?????gggggggggggggggggggggggggg?
+   26 ????ggggggggggggddggggggggggggggggg??gggggggggggggggggggggggggg??
+   28 ???gggggggggggggddggggggggggggggggg??-ggggggggggggggggggggggggg??
+   30 ???gggggggggggggddggggggggggggggggg??-ggggggggggggggggggggggg????
+   32 ???ggggggggdgdddddggggggggggggggggg-??ggggggggggggggggggggggg????
+   34 ???gggggggggggggddggggggggggggggggg-??ggggggggggggggggggggggg????
+   36 ???lgggggggggglgdgggggggggggggggggg--?gggggggggggggggggggggg?????
+   38 ???ggggggzggggggdlzgggggggglzllggggggggggggggggggggggggggggg?????
+   40 ???gggggggggggggddlgggggggggllzzgggggggggggggggggggggggggggg????g
+   42 ???gggggggggggggddlgggggggggggggzggggggggggg--??ggggggggggg?????g
+   44 ??ggggggggggggggddlggggggggggggggzlgggggggggg???gggggggggg??????g
+   46 ??ggglggggggggggddlzggggggggggggggzlggggggggg???ggggggggg???????g
+   48 ??ggggzzgggggggggddlzggggggggggggggzlgggggggg???ggggggggg???????g
+   50 ggggggzzggggggggggddlgggggggggggggggllggggggg???ggggggggg???????g
+   52 gg-zzzggggggggggggddlggggggggggggggglzggggggg???ggggggggg???????g
+   54 zz-z-zggggggzzdddzddlgggggggggggggggllggggggg???ggggggggg???????g
+   56 zz-z-zgggzggzzdddzddlggggggggggggggggggg---?????gggggggggggg-???g
+   58 ddddddggggzgdddddddlzgggggggggggggggggggg--?????ggggggggggggg-??g
+   60 dddddddddddddddddddlggggggggJggggggggggggg-?????gggggggggggggg??g
+   62 gggggggddzggzggzzddlgggggggzppzggggggggggg-?????ggggggggggggggg?g
+   64 gggggggzzggggggggddlggggggzpppzzzzzzggggggggdgggggggggggggggggggg
+   66 zzzzzzgggggggggggddlzgggggpppppzIEHzggggggggdgggggggggggggggggggg
+   68 --zzzzgggzdddgzggdddglzggzpppppz-B-zgglgggggdgggggggggggggggggggg
+   70 zzzzzzgggzzdggzggdddggggzpppppzz@Azzgglgggggdgggggggggggggggggggg
+   72 gggzzzgzgzddgdzgdddddgdggzppppgggzzzgglgggggdgggggggggggggggggggg
+   74 ggggggggdzddddgddzzzdgdgglpppzgggggggglggggddgggggggggggggggggggg
+   76 gddgdddddddddddddzzzddggddddddddddddddldddddggggggggggggggggggggg
+   78 gggggggggggggggddzzzdddddzdggzzdgggggzlgggggggggggggggggggggggggg
+   80 ggggggggggggggggdddgggdgddgKgzzgggggllggggggggggggggggggggggggggg
+   82 gggggggggggggggggddgggggzdddzzzggggglzggggggggggggggggggggggggggg
+   84 ggggggggggggggggggdzzzzggzdddzgggggglgggggggggggggggggggggggggggg
+   86 dddgggggggggggggggdzzzYgggzzdlOQggggggggggggggggggggggggggggggggg
+   88 ddggggggggggggggggd----gggggglgddgggggggggggggggggggggggggggggggg
+   90 gggggggggggggggggggd---gggggglggRdggggggggggggggggggggggggggggggg
+   92 ggggggggggggggggggd----gggggglgggddgggggggggggggggggggggggggggggg
+   94 ggggggggggggggggggddggggggggglgggzdddgggggggggggggggggggggggggggg
+   96 ggggggggggggggggggddggggggggglggggggddgddddgggggggggggggggggggggg
+   98 ggggggggggggggggggddggggggggglgggggggggggddddgggggggggggggggggggg
+  100 ggggggggggggggggggddggggggggglggggggggggggggdgdgggggllggggggggg?g
+  102 gggggggggggggggggggzggggggggglgggggggggggggggdddggggllggggggggggg
+  104 ggggggggggggggg--gddggggggggzlgggggggggggggggggddgggggggggggggggg
+  106 gggggggggggggggzzgddggggggggzzggggggggggggggggggddggggggggggggggg
+  108 --zggggggggggggzzgddggggggggllgggg-?????gggggggggddgggggggggggggg
+  110 --zgggg?ggggggggggddggggggggzgggg--?????ggggggggggdssgggggggggggg
+  112 -zzggg??ggggggggggddgggggggzggggg--?????gggggggggggddgsdggdgggggg
+  114 ---ggg??ggggggggggdzggggggzgggggg--?????gggggggggggggggddddddgggg
+  116 ---ggg??ggggggggggdzgggggglggggg---?????gggggggggggggggggggddsdgg
+  118 ---ggg??ggggggggggddggggzggggggg---?????gggggggggggggggggggggdddg
+  120 gggggg??ggggggggggdzgglllggggggg--??????gggggggggggggggggggggggdd
+  122 gggggg???gggggggggdzggzzggggggg--????????gggggggggggggggggggggggg
+  124 zzzl???????llllzllzzllllgggggggg??????????ggggggggggggggggggggggg
+  126 ggggg??????gggggggdgggggggggggg-?????????ggggggggggg--ggggggggggg
+  128 ggggg??????gggggggdggggggggggggg?????????ggggggggggg--ggggggggggs
+  130 gggggg?????gggggggdgggggggggggg-????????ggggggggggg---ggggggggggs
+  132 ggggggg???ggggggggdgggggggggggg-??????ggggggggggggg-?????-ggggggg
+  134 ggggggggg?ggggggggdggggggggggg--??????gggggggggggg--?????-ggggggg
+| MIEJSCA na mapie: A skrzynia-domek (-157,117,70) 2m E; B domek-kupca (-158,117,67) 3m N; C auto-lozko-3 (-159,117,66) 4m N; E piec-domek (-157,117,66) 4m NE; H auto-stol-1 (-156,117,66) 5m NE; I lozko (-159,117,65) 5m N; J milicja (-168,113,60) 13m NW; K auto-skrzynia-12 (-169,113,80) 14m SW; M auto-npc-armorer-1 (-163,112,85) 16m S; O handel-straznik-bramy-e (-163,112,85) 16m S; Q straznik-bramy-e (-161,112,86) 16m S; R plac-przed-brama (-160,112,90) 20m S; U auto-skrzynia-1 (-180,113,86) 26m SW; Y skrzynia-auto1 (-180,113,86) 26m SW
+poza oknem albo ponad limit liter: 74 wpisow pamieci (pelna lista: miejsca, rudy, zwierzeta)
+TEREN komorek: trawa=3184 las=74 woda=3 skala=6 piasek=27 droga=287 zabudowa=162 pole=3
+RZEZBA (kwadraty 16x16 blokow, ten sam uklad co mapa 2D; cyfra = najwyzsza znana powierzchnia: 5 = Twoj poziom +-2, 6 = +4 bl., 4 = -4 bl., 0..9 = skrajne, ? = nieznane)
+    6 555543444
+   22 56665244?
+   38 666663244
+   54 666664234
+   70 555663022
+   86 445552000
+  102 545540000
+  118 545500000
+  134 444400000
+== TRASA brak trwajacego lancucha (mapa bez T i *)
+== SLAD poprzednich klatek (cyfry na mapie 2D; 1 = poprzednia), zmniejszony stan:
+  1 tick=1847112 (1055 t temu) @(-159,116,70) hp=20.0/20.0 glod=20 pragnienie=20/20 stamina=100.0 reka=puste pora=noc do_zmierzchu=0t/0s; bez lancucha
+  2 tick=1846927 (1240 t temu) @(-159,116,70) hp=20.0/20.0 glod=20 pragnienie=20/20 stamina=100.0 reka=puste pora=noc do_zmierzchu=0t/0s; bez lancucha
+KONIEC KLATKI znakow=9507 tokeny~3169 (szacunek znaki/3) skala2d=1:2 budzet=5500 czas=26.6 ms

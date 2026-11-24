@@ -1,0 +1,21 @@
+AKCJE 19 (tryb scisly, rola=informuj; kazda akcja jest wykonalna TERAZ; `wykonaj <id> [ilosc]`)
+A34 IDZ idz auto-lowisko-1 | lowisko: tu polowalem (atakuj), 1 zabitych (sheep x1), promien 8 bl., pieszo | ~1s st 0 | ryzyko niskie | pewna
+A31 ZBIERZ zbierz oak_log <1..64> | oak_log (88 widocznych, najblizszy 3 m) | ~3s st 0 | ryzyko niskie | pewna | ilosc 1..64
+A53 ZBIERZ zbierz birch_log <1..43> | birch_log (43 widocznych, najblizszy 5 m) | ~3s st 0 | ryzyko niskie | pewna | ilosc 1..43
+A60 CRAFT craft planks <1..12> | planks ze skladnikow z ekwipunku | ~2s st 0 | ryzyko niskie | pewna | ilosc 1..12
+A61 CRAFT craft stick <1..32> | stick ze skladnikow z ekwipunku | ~2s st 0 | ryzyko niskie | pewna | ilosc 1..32
+A62 CRAFT craft crafting_table <1..4> | crafting_table ze skladnikow z ekwipunku | ~2s st 0 | ryzyko niskie | pewna | ilosc 1..4
+A25 ATAKUJ atakuj najblizszy sheep | sheep 14 m (zwierze) | ~7s st 0 | ryzyko niskie | prawdopodobna
+A32 PIJ pij | pragnienie 10/20 | ~3s st 0 | ryzyko niskie | prawdopodobna
+A2 EKSPLORUJ eksploruj jaskinia | szukaj: jaskinia | ~60s st 20 | ryzyko srednie | niepewna
+A3 EKSPLORUJ eksploruj ruda | szukaj: ruda | ~60s st 20 | ryzyko srednie | niepewna
+A4 EKSPLORUJ eksploruj las | szukaj: las | ~60s st 20 | ryzyko srednie | niepewna
+A5 EKSPLORUJ eksploruj pole | szukaj: pole | ~60s st 20 | ryzyko srednie | niepewna
+A6 EKSPLORUJ eksploruj zwierzyna | szukaj: zwierzyna | ~60s st 20 | ryzyko srednie | niepewna
+A7 EKSPLORUJ eksploruj woda | szukaj: woda | ~60s st 20 | ryzyko srednie | niepewna
+A8 EKSPLORUJ eksploruj jezioro | szukaj: jezioro | ~60s st 20 | ryzyko srednie | niepewna
+A9 EKSPLORUJ eksploruj skala | szukaj: skala | ~60s st 20 | ryzyko srednie | niepewna
+A10 EKSPLORUJ eksploruj wzgorze | szukaj: wzgorze | ~60s st 20 | ryzyko srednie | niepewna
+A11 EKSPLORUJ eksploruj budowla | szukaj: budowla | ~60s st 20 | ryzyko srednie | niepewna
+A12 EKSPLORUJ eksploruj ruiny | szukaj: ruiny | ~60s st 20 | ryzyko srednie | niepewna
+

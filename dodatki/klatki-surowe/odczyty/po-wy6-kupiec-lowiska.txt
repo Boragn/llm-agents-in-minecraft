@@ -1,0 +1,2 @@
+BLAD E_NIE_Z_MENU polecenie 'lowiska' spoza menu (tryb scisly: tylko `wykonaj <id>`, `stop wszystko` i odczyt); bliskie poprawne: A1 zbierz dirt 1 | A61 idz auto-stado-sheep-2 | A49 pij
+

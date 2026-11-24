@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" shape-rendering="crispEdges">
+<rect width="1000" height="560" fill="#0f1218"/>
+<text x="12.0" y="22.0" font-family="sans-serif" font-size="15" fill="#d8dee9" text-anchor="start" font-weight="bold">Pokrycie i regiony z pamieci Borysa (odczyty `pokrycie` i `regiony` po WY-6)</text>
+<text x="12.0" y="40.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">Lewa: granice poznania wokol ciala (kierunek, odleglosc, typ, zainteresowanie roli). Prawa: regiony wykryte automatycznie z mapy wiedzy.</text>
+<text x="20.0" y="70.0" font-family="sans-serif" font-size="12" fill="#d8dee9" text-anchor="start" font-weight="bold">POKRYCIE: poznane 39% kolumn w promieniu 48</text>
+<circle cx="250" cy="300" r="50.0" fill="none" stroke="#2c3646"/>
+<text x="253.0" y="262.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">16 m</text>
+<circle cx="250" cy="300" r="100.0" fill="none" stroke="#2c3646"/>
+<text x="253.0" y="212.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">32 m</text>
+<circle cx="250" cy="300" r="150.0" fill="none" stroke="#2c3646"/>
+<text x="253.0" y="162.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">48 m</text>
+<circle cx="250" cy="300" r="200.0" fill="none" stroke="#2c3646"/>
+<text x="253.0" y="112.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">64 m</text>
+<circle cx="303.1" cy="300.0" r="12.3" fill="#b48ead" stroke="#ffffff" stroke-width="1.5"/>
+<text x="319.5" y="304.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">jaskinia 17m</text>
+<circle cx="292.0" cy="258.0" r="6.2" fill="#b5a63c"/>
+<text x="302.2" y="262.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">pole 19m</text>
+<circle cx="250.0" cy="218.8" r="6.2" fill="#b5a63c"/>
+<text x="260.2" y="222.8" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">pole 26m</text>
+<circle cx="309.7" cy="359.7" r="6.2" fill="#b5a63c"/>
+<text x="319.9" y="363.7" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">pole 27m</text>
+<circle cx="181.5" cy="231.5" r="6.9" fill="#b5a63c"/>
+<text x="192.4" y="235.5" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">pole 31m</text>
+<circle cx="340.6" cy="390.6" r="6.0" fill="#b5a63c"/>
+<text x="350.6" y="394.6" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">pole 41m</text>
+<circle cx="250.0" cy="159.4" r="6.2" fill="#b5a63c"/>
+<text x="260.2" y="163.4" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">pole 45m</text>
+<circle cx="250.0" cy="475.0" r="6.7" fill="#b5a63c"/>
+<text x="260.7" y="479.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">pole 56m</text>
+<text x="250.0" y="90.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="middle">N</text>
+<text x="464.0" y="304.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="middle">E</text>
+<text x="250.0" y="518.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="middle">S</text>
+<text x="36.0" y="304.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="middle">W</text>
+<circle cx="250.0" cy="300.0" r="6.0" fill="#ffd36b" stroke="#000000" stroke-width="1.5"/>
+<text x="20.0" y="530.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">wielkosc kola = zainteresowanie (0..100), biala obwodka = NAJCIEKAWSZA; kolor = typ granicy</text>
+<text x="520.0" y="70.0" font-family="sans-serif" font-size="12" fill="#d8dee9" text-anchor="start" font-weight="bold">REGIONY (11), obrys z gory, polnoc u gory</text>
+<rect x="520.0" y="80.0" width="326.3" height="430.0" fill="#1c222c"/>
+<rect x="809.9" y="288.3" width="29.2" height="19.5" fill="#8a8f98" fill-opacity="0.55" stroke="#8a8f98"/>
+<text x="811.9" y="300.3" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">wzgórze 2</text>
+<rect x="819.7" y="330.9" width="12.2" height="9.7" fill="#2f6b3a" fill-opacity="0.55" stroke="#2f6b3a"/>
+<text x="821.7" y="342.9" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">las 4</text>
+<rect x="766.1" y="205.5" width="24.4" height="63.3" fill="#8a8f98" fill-opacity="0.55" stroke="#8a8f98"/>
+<text x="768.1" y="217.5" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">wzgórze 1</text>
+<rect x="742.9" y="201.8" width="7.3" height="8.5" fill="#b48ead" fill-opacity="0.55" stroke="#b48ead"/>
+<text x="744.9" y="213.8" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">jaskinia 2</text>
+<rect x="697.8" y="250.5" width="6.1" height="8.5" fill="#b5a63c" fill-opacity="0.55" stroke="#b5a63c"/>
+<text x="699.8" y="262.5" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">pole 1</text>
+<rect x="611.4" y="270.0" width="135.2" height="141.3" fill="#b0603a" fill-opacity="0.55" stroke="#b0603a"/>
+<text x="613.4" y="282.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">zabudowa 1</text>
+<rect x="682.0" y="86.1" width="56.0" height="90.1" fill="#2f6b3a" fill-opacity="0.55" stroke="#2f6b3a"/>
+<text x="684.0" y="98.1" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">las 2</text>
+<rect x="693.0" y="434.5" width="32.9" height="47.5" fill="#b48ead" fill-opacity="0.55" stroke="#b48ead"/>
+<text x="695.0" y="446.5" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">jaskinia 3</text>
+<rect x="584.6" y="168.9" width="32.9" height="31.7" fill="#b48ead" fill-opacity="0.55" stroke="#b48ead"/>
+<text x="586.6" y="180.9" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">jaskinia 1</text>
+<rect x="526.1" y="337.0" width="76.7" height="56.0" fill="#2f6b3a" fill-opacity="0.55" stroke="#2f6b3a"/>
+<text x="528.1" y="349.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">las 1</text>
+<rect x="577.3" y="483.2" width="9.7" height="21.9" fill="#2f6b3a" fill-opacity="0.55" stroke="#2f6b3a"/>
+<text x="579.3" y="495.2" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">las 3</text>
+<circle cx="840.2" cy="291.3" r="6.0" fill="#ffd36b" stroke="#000000" stroke-width="1.5"/>
+<text x="520.0" y="530.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">x -334..-66, z -123..230; kolor = typ regionu (las, wzgorze, jaskinia, pole, budowla)</text>
+</svg>

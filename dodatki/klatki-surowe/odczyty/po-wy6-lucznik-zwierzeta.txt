@@ -1,0 +1,11 @@
+ZWIERZETA 4: pamiec ciala, tylko to, co widzialo; wygasa po 15 min bez zobaczenia
+- auto-stado-sheep-1 sheep x1 (-345,71,112) 35 m S, rozpietosc 1x1 bl., widziane 3m35s temu, pewnosc 0.76, wygasa za 11m24s, auto-odkrycie
+- auto-stado-rabbit-1 rabbit x1 (-295,99,61) 69 m E, rozpietosc 1x1 bl., widziane 7m55s temu, pewnosc 0.47, wygasa za 7m04s, auto-odkrycie
+- auto-stado-cow-1 cow x1 (-252,110,109) 115 m E, rozpietosc 1x1 bl., widziane 4m51s temu, pewnosc 0.68, wygasa za 10m08s, auto-odkrycie
+- auto-stado-horse-1 horse x1 (-255,111,-7) 138 m NE, rozpietosc 1x1 bl., widziane 8m26s temu, pewnosc 0.44, wygasa za 6m33s, auto-odkrycie
+LOWISKA 4: miejsca polowan ciala (zabicia akcja atakuj albo strzelaj); wyczerpane lowisko wraca do stanu nieznane po 30 min gry
+- auto-lowisko-1 sheep x1 (-355,72,88) 9 m S, promien 8 bl., 1 zabitych, stan WYCZERPANE od 3m23s (wraca do nieznanego za 26m36s), ostatnie zabicie 3m29s temu, zrodlo atakuj, tu polowalem, 1 zabitych (sheep x1), brak zwierzyny w promieniu 20 bl., auto-odkrycie
+- auto-lowisko-5 sheep x1 (-345,71,114) 37 m S, promien 8 bl., 1 zabitych, stan POLUJE od 3m34s, ostatnie zabicie 3m34s temu, zrodlo atakuj, tu polowalem (atakuj), 1 zabitych (sheep x1), promien 8 bl., auto-odkrycie
+- auto-lowisko-3 chicken x1 (-274,104,24) 104 m NE, promien 8 bl., 1 zabitych, stan WYCZERPANE od 9m44s (wraca do nieznanego za 20m15s), ostatnie zabicie 10m02s temu, zrodlo atakuj, tu polowalem, 1 zabitych (chicken x1), brak zwierzyny w promieniu 20 bl., auto-odkrycie
+- auto-lowisko-4 chicken x2, pig x1 (-242,113,4) 142 m NE, promien 14 bl., 3 zabitych, stan ODNOWIONE od 8m38s, ostatnie zabicie 9m20s temu, zrodlo atakuj, zwierzyna wrocila do lowiska (widziana po wyczerpaniu), auto-odkrycie
+

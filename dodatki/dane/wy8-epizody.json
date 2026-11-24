@@ -1,0 +1,580 @@
+{
+"kupiec": [
+{
+"k": "k-002",
+"start": 1848167,
+"koniec": 1848168,
+"czynnosc": "wyjmij wszystko",
+"cmd": "wyjmij wszystko",
+"status": "ok",
+"lok": [
+"domek Borysa",
+-158,
+67
+],
+"enc": [
+[
+"bread",
+"przedmiot",
+"daje_wynik"
+],
+[
+"wooden_axe",
+"narzędzie",
+"daje_wynik"
+]
+],
+"poz": [
+-158.5,
+70.6
+],
+"poprzednia": null,
+"nastepna": "eksploruj las"
+},
+{
+"k": "k-003",
+"start": 1848317,
+"koniec": 1848467,
+"czynnosc": "eksploruj las",
+"cmd": "eksploruj las",
+"status": "przerwany:stop",
+"lok": [
+"milicja",
+-168,
+60
+],
+"enc": [],
+"poz": [
+-167.89,
+59.64
+],
+"poprzednia": "wyjmij wszystko",
+"nastepna": "eksploruj las"
+},
+{
+"k": "k-004",
+"start": 1848467,
+"koniec": 1850117,
+"czynnosc": "eksploruj las",
+"cmd": "eksploruj las",
+"status": "przerwany:stop",
+"lok": [
+"teren (-337, 130)",
+-337.21,
+130.79
+],
+"enc": [],
+"poz": [
+-337.21,
+130.79
+],
+"poprzednia": "eksploruj las",
+"nastepna": "zbierz oak_log 8"
+},
+{
+"k": "k-005",
+"start": 1850117,
+"koniec": 1850288,
+"czynnosc": "zbierz oak_log 8",
+"cmd": "zbierz oak_log 8",
+"status": "ok",
+"lok": [
+"las",
+-321,
+125
+],
+"enc": [
+[
+"oak_log",
+"przedmiot",
+"daje_wynik"
+],
+[
+"drzewo",
+"przedmiot",
+"z_udzialem"
+],
+[
+"wooden_axe",
+"narzędzie",
+"z_udzialem"
+],
+[
+"oak_log",
+"przedmiot",
+"daje_wynik"
+],
+[
+"birch_log",
+"przedmiot",
+"daje_wynik"
+]
+],
+"poz": [
+-334.5,
+127.54
+],
+"poprzednia": "eksploruj las",
+"nastepna": "craft planks 8"
+},
+{
+"k": "k-006",
+"start": 1850310,
+"koniec": 1850318,
+"czynnosc": "craft planks 8",
+"cmd": "craft planks 8",
+"status": "ok",
+"lok": [
+"las",
+-321,
+125
+],
+"enc": [
+[
+"planks",
+"przedmiot",
+"daje_wynik"
+]
+],
+"poz": [
+-334.5,
+127.54
+],
+"poprzednia": "zbierz oak_log 8",
+"nastepna": "craft crafting_table 1"
+},
+{
+"k": "k-006",
+"start": 1850318,
+"koniec": 1850322,
+"czynnosc": "craft crafting_table 1",
+"cmd": "craft crafting_table 1",
+"status": "ok",
+"lok": [
+"las",
+-321,
+125
+],
+"enc": [
+[
+"crafting_table",
+"narzędzie",
+"daje_wynik"
+]
+],
+"poz": [
+-334.5,
+127.54
+],
+"poprzednia": "craft planks 8",
+"nastepna": null
+}
+],
+"lucznik": [
+{
+"k": "k-002",
+"start": 1848167,
+"koniec": 1848168,
+"czynnosc": "wyjmij wszystko",
+"cmd": "wyjmij wszystko",
+"status": "ok",
+"lok": [
+"domek Wilgi",
+-237,
+71
+],
+"enc": [
+[
+"bread",
+"przedmiot",
+"daje_wynik"
+],
+[
+"wooden_axe",
+"narzędzie",
+"daje_wynik"
+]
+],
+"poz": [
+-236.5,
+70.7
+],
+"poprzednia": null,
+"nastepna": "eksploruj zwierzyna"
+},
+{
+"k": "k-003",
+"start": 1848317,
+"koniec": 1848467,
+"czynnosc": "eksploruj zwierzyna",
+"cmd": "eksploruj zwierzyna",
+"status": "przerwany:stop",
+"lok": [
+"piec 3",
+-236,
+100
+],
+"enc": [],
+"poz": [
+-232.5,
+97.37
+],
+"poprzednia": "wyjmij wszystko",
+"nastepna": "idz (-237 111 113)"
+},
+{
+"k": "k-004",
+"start": 1848617,
+"koniec": 1848692,
+"czynnosc": "idz (-237 111 113)",
+"cmd": "idz -237 111 113",
+"status": "ok",
+"lok": [
+"koszary",
+-243,
+119
+],
+"enc": [],
+"poz": [
+-236.46,
+111.46
+],
+"poprzednia": "eksploruj zwierzyna",
+"nastepna": "idz stado-cow-1"
+},
+{
+"k": "k-005",
+"start": 1848767,
+"koniec": 1848786,
+"czynnosc": "idz stado-cow-1",
+"cmd": "idz auto-stado-cow-1",
+"status": "ok",
+"lok": [
+"koszary",
+-243,
+119
+],
+"enc": [],
+"poz": [
+-233.58,
+110.48
+],
+"poprzednia": "idz (-237 111 113)",
+"nastepna": "atakuj cow"
+},
+{
+"k": "k-006",
+"start": 1848917,
+"koniec": 1848980,
+"czynnosc": "atakuj cow",
+"cmd": "atakuj najblizszy cow",
+"status": "ok",
+"lok": [
+"łowisko 2",
+-222,
+105
+],
+"enc": [
+[
+"cow",
+"mob",
+"z_udzialem"
+],
+[
+"leather",
+"przedmiot",
+"daje_wynik"
+],
+[
+"beef",
+"przedmiot",
+"daje_wynik"
+]
+],
+"poz": [
+-224.5,
+104.49
+],
+"poprzednia": "idz stado-cow-1",
+"nastepna": "idz handlarz"
+},
+{
+"k": "k-007",
+"start": 1849067,
+"koniec": 1849389,
+"czynnosc": "idz handlarz",
+"cmd": "idz handel-handlarz",
+"status": "ok",
+"lok": [
+"rynek",
+-200,
+56
+],
+"enc": [],
+"poz": [
+-197.33,
+55.66
+],
+"poprzednia": "atakuj cow",
+"nastepna": "rozmawiaj"
+},
+{
+"k": "k-007",
+"start": 1849389,
+"koniec": 1849390,
+"czynnosc": "rozmawiaj",
+"cmd": "rozmawiaj najblizszy villager",
+"status": "ok",
+"lok": [
+"rynek",
+-200,
+56
+],
+"enc": [
+[
+"Handlarz",
+"NPC",
+"z_udzialem"
+]
+],
+"poz": [
+-197.33,
+55.66
+],
+"poprzednia": "idz handlarz",
+"nastepna": "sprzedaj 1 leather"
+},
+{
+"k": "k-007",
+"start": 1849390,
+"koniec": 1849391,
+"czynnosc": "sprzedaj 1 leather",
+"cmd": "handluj najblizszy villager 1 2",
+"status": "ok",
+"lok": [
+"rynek",
+-200,
+56
+],
+"enc": [
+[
+"Handlarz",
+"NPC",
+"z_udzialem"
+],
+[
+"emerald",
+"przedmiot",
+"daje_wynik"
+],
+[
+"leather",
+"przedmiot",
+"kosztuje"
+]
+],
+"poz": [
+-197.33,
+55.66
+],
+"poprzednia": "rozmawiaj",
+"nastepna": "sprzedaj 2 beef"
+},
+{
+"k": "k-008",
+"start": 1849517,
+"koniec": 1849518,
+"czynnosc": "sprzedaj 2 beef",
+"cmd": "handluj najblizszy villager 2 1",
+"status": "ok",
+"lok": [
+"rynek",
+-200,
+56
+],
+"enc": [
+[
+"Handlarz",
+"NPC",
+"z_udzialem"
+],
+[
+"emerald",
+"przedmiot",
+"daje_wynik"
+],
+[
+"beef",
+"przedmiot",
+"kosztuje"
+]
+],
+"poz": [
+-197.33,
+55.66
+],
+"poprzednia": "sprzedaj 1 leather",
+"nastepna": "kup bow x1"
+},
+{
+"k": "k-008",
+"start": 1849518,
+"koniec": 1849519,
+"czynnosc": "kup bow x1",
+"cmd": "handluj najblizszy villager 16 1",
+"status": "ok",
+"lok": [
+"rynek",
+-200,
+56
+],
+"enc": [
+[
+"Handlarz",
+"NPC",
+"z_udzialem"
+],
+[
+"bow",
+"narzędzie",
+"daje_wynik"
+],
+[
+"emerald",
+"przedmiot",
+"kosztuje"
+]
+],
+"poz": [
+-197.33,
+55.66
+],
+"poprzednia": "sprzedaj 2 beef",
+"nastepna": "kup arrow x4"
+},
+{
+"k": "k-009",
+"start": 1849667,
+"koniec": 1849668,
+"czynnosc": "kup arrow x4",
+"cmd": "handluj najblizszy villager 17 1",
+"status": "ok",
+"lok": [
+"rynek",
+-200,
+56
+],
+"enc": [
+[
+"Handlarz",
+"NPC",
+"z_udzialem"
+],
+[
+"arrow",
+"przedmiot",
+"daje_wynik"
+],
+[
+"emerald",
+"przedmiot",
+"kosztuje"
+]
+],
+"poz": [
+-197.94,
+55.58
+],
+"poprzednia": "kup bow x1",
+"nastepna": "eksploruj zwierzyna"
+},
+{
+"k": "k-009",
+"start": 1849668,
+"koniec": 1850109,
+"czynnosc": "eksploruj zwierzyna",
+"cmd": "eksploruj zwierzyna",
+"status": "ok",
+"lok": [
+"teren (-211, 94)",
+-211.5,
+94.5
+],
+"enc": [
+[
+"stado kotów 1",
+"mob",
+"daje_wynik"
+]
+],
+"poz": [
+-211.5,
+94.5
+],
+"poprzednia": "kup arrow x4",
+"nastepna": "eksploruj zwierzyna"
+},
+{
+"k": "k-010",
+"start": 1850109,
+"koniec": 1850310,
+"czynnosc": "eksploruj zwierzyna",
+"cmd": "eksploruj zwierzyna",
+"status": "ok",
+"lok": [
+"łowisko 3",
+-225,
+130
+],
+"enc": [
+[
+"stado kur 1",
+"mob",
+"daje_wynik"
+]
+],
+"poz": [
+-220.68,
+125.5
+],
+"poprzednia": "eksploruj zwierzyna",
+"nastepna": "atakuj chicken"
+},
+{
+"k": "k-011",
+"start": 1850310,
+"koniec": 1850337,
+"czynnosc": "atakuj chicken",
+"cmd": "atakuj najblizszy chicken",
+"status": "ok",
+"lok": [
+"łowisko 3",
+-225,
+130
+],
+"enc": [
+[
+"chicken",
+"mob",
+"z_udzialem"
+],
+[
+"feather",
+"przedmiot",
+"daje_wynik"
+],
+[
+"chicken",
+"mob",
+"daje_wynik"
+]
+],
+"poz": [
+-223.25,
+128.63
+],
+"poprzednia": "eksploruj zwierzyna",
+"nastepna": null
+}
+]
+}

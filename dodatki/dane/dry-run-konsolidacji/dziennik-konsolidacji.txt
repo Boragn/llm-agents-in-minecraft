@@ -1,0 +1,3 @@
+2:#### STOP konsolidacji (tura 15, powod: wspomnien): swiat stoi (tryb turowy), ciala: lucznik, nieopisanych wspomnien: 2, suma wag: 12
+3-- lucznik: lekcji 2 (+2, potwierdzone 0, wygaslo 0, odrzucone 0), opisane wspomnienia 2, koszt 0.0189 USD, tokeny warstwy 129/3000, kopia poprzedniej: archiwum-lekcji
+4-- koniec konsolidacji: koszt 0.0189 USD, swiat stal: tak, wznowienie gry

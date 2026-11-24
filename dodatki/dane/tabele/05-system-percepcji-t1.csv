@@ -1,0 +1,10 @@
+warstwa pamięci,wersja,co zapisuje,co widzi model
+miejsca i notatki,0.1.0 (AM-19),"nazwa -> pozycja, notatki tekstowe; trwałe po restarcie","miejsca, idz <miejsce>"
+graf przejść i węzły doświadczenia,"AM-42, AM-54","przebyte trasy, czynności z efektami, także negatywne (backtracking)","polecenia graf, doswiadczenia"
+auto-odkrycia,0.10.6-dev,"skan co 40 ticków w 16 blokach: skrzynie, piece, stoły, łóżka, NPC, klastry rud, woda, jaskinie, grupy wrogów jako auto-*; budżet 0,5 ms",wpisy w miejsca z wiekiem
+brak zapamiętanego,0.10.7-dev,"obiekt, którego nie ma tam, gdzie był: obserwacja brak, pewność x0,5, wpis zostaje",linia PAMIEC: brak zapamietanego ...
+opis sceny,0.10.12-dev,"deterministyczny opis otoczenia w 20 blokach przy odkryciu, bez LLM; opisz dopisuje interpretację ciała","miejsca --scena, przypomnij"
+trwały ekwipunek i stan,0.12.1 (trwały),"36 slotów, pancerz, głód, XP w pliku per ciało",stan po restarcie bez zmian
+"stada, moby, złoża rud",0.12.2-dev,"auto-stado-* (wygasa po 15 min), auto-moby-* (5 min), auto-ruda-* ze stanowiskiem do kopania","zwierzeta, moby, rudy, linia PAMIEC: najblizsze znane stado ..."
+pamięć zdarzeń miejsca,0.12.4-dev,"auto-lowisko-N, stan wyczerpane i odnowione, ruda wykopana, las wycięty","lowiska, zdarzenia, linia PAMIEC"
+siatka osiągalności i ocena pozycji,0.12.1-dev,"komórki osiągalne tym samym A* co idz, z czasem i wytrzymałością; ocena 0..100 wg sytuacji (walka, głód, zbieranie)","osiagalne, linia POZYCJE ...; sugestia, nie polecenie"

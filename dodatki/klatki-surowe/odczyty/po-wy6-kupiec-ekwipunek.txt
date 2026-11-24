@@ -1,0 +1,2 @@
+leather_flask x1, purified_water_bottle x3
+

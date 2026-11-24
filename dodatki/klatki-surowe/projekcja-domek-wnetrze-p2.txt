@@ -1,0 +1,9 @@
+== RADAR 32 promieni co 11.25 st. (0 = N, zgodnie z zegarem), z oczu; komorka = typ+odleglosc m (.=nic do 32 m); typy: z=sciana #=skala/ziemia L=pien l=liscie g=szyba |=plot/mur /=drzwi ==furtka H=drabina K=skrzynia f=piec t=stol b=lozko ~=woda ^=lawa !=ogien; 'wys' = gora przeszkody nad Twoimi stopami (bl.); 'za' = co widac za przezroczysta przeszkoda
+az     N       NNE     NE      ENE     E       ESE     SE      SSE     S       SSW     SW      WSW     W       WNW     NW      NNW
+gora   z3  z3  z3  z3  z3  z3  z3  z3  z3  z3  z3  z3  z2  z2  z2  z2  z2  z2  z2  z2  z2  z3  z3  z3  z3  z3  z3  z3  z3  z3  z3  z3
+poziom g2  g3  f1  f1  f1  f1  f1  g4  g4  g4  g4  g3  g2  g2  g2  g2  g2  g2  z2  z2  z2  /3  /3  z3  z2  z3  b1  b1  b1  b1  b1  g3
+wys    +4  +4  +1  +1  +1  +1  +1  +4  +4  +4  +4  +4  +4  +4  +4  +4  +4  +4  +4  +4  +4  +0  +0  +5  +5  +5  +1  +1  +1  +1  +1  +4
+za     z22                                     z4  z4  z5  K3  K3  K3                                                              z3
+dol    g3  g3  f2  f1  f1  f1  f2  z4  z4  z3  z3  g3  g2  g2  g2  g2  g2  g2  z2  z2  z2  /3  /3  z3  z3  z3  g3  z3  b1  b2  b2  g3
+AFORDANCJE (TU: pod dachem; wyjscie 7 krokow S przez drzwi SW 3m (-160,117,69); skrzynia 3m S (droga 7 krokow))
+N: szyba 2m wys 4, za nia sciana 22m; NE: piec 1m wys 1 (wejdziesz), zejscie 2 w dol za 1m; E: szyba 4m wys 4, zejscie 2 w dol za 1m; SE: szyba 2m wys 4, za nia skrzynia 3m, zejscie 2 w dol za 1m; S: szyba 2m wys 4; SW: sciana 2m wys 4, drzwi 3m; W: sciana 2m wys 5, drzwi 3m; NW: lozko 1m wys 1 (wejdziesz)

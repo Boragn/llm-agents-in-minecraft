@@ -1,0 +1,63 @@
+== FOVEA przejezdnosc @=(-158,117,67) promien 64, 57x57 komorek
+SKALA zmienna (jak plamka zolta): 1 znak = 1 blok do 12 od Ciebie, 2 bloki do 24, 4 bloki do 64; linia 'sk' = szerokosc kolumn w blokach (od lewej dx -64..+64, symetrycznie), na poczatku wiersza dz (przesuniecie od Ciebie, ujemne = N) i jego wysokosc w blokach; Ty w srodku
+Znaki jak w mapie przejezdnosci (komorka >1 bloku: znak specjalny @ m ^ / = H K I wygrywa, inaczej najczestszy)
+   sk 444444444422222211111111111111111111111112222224444444444
+  -64 4 dddeeeeeeeeeedddeeeeeeffghiiiiiiiiiiiiiiiiiiiiiiifeemeeee
+  -60 4 dddddddddddddddcdddeeeeeffgghiiiiiiiiiiiiiiiiiiiifeeeeeee
+  -56 4 ddddcddddccccbbbbcccddeeeefffghiiiiiiiiiiiiiiiiiihfeeeeee
+  -52 4 dddcccddbbcccbaaaabbccdeeeeeffgghiiiiiiiiiiiiiiiiifeeeeee
+  -48 4 dccccccccbccbbaaaabbbccdeeeeeeffghiiiiiiiiiiiiiiiihfeeeme
+  -44 4 ccccbbbcccccbbabbbbbbbccdeeeeeeeffgghiiiiiiiiiiiiiigeeeee
+  -40 4 cccbbbbbbbcbbbbbbbbbbbbcccddeeeeefffghiiiiiiiiiiiiiifeeee
+  -36 4 cccbbaaaaaaaaabbbbbbbbbbbcccddeeeeeffghiiiiiiiiiiiiimfeee
+  -32 4 cccbaaa==aaaaaaaa4aHabaabbbbcddeeeeffghiiiiiiiiiiiimigeee
+  -28 4 ccccaaaaaaaaaaaaaaaaaaaaaaabccdeeeeffghiiiiiiiiiiiiiiifee
+  -24 2 cccaaaaaaaaaaaaaaaaaaaaaaab1121deeeeffghiiiiiiiiiiiiiifee
+  -22 2 cc..aaaaaaaaaaaaaaaaaaaabbbbb....eeeffghiiiiiiiiiiiiiigee
+  -20 2 ccccaaaaaaaaaaaaaaaaabbbbbbbbccdbbbeeffghiiiiiiiiiiiiigfe
+  -18 2 ccccaaaaaaaaaaaaaaabbbbbbbbbbcdddebbbafghiiiiiiiiiiiiiife
+  -16 2 ##ccaaaaaaaaaaaaabbbbbbbbbbbccddddbbbHbfghiiiiiiiiiiiiife
+  -14 2 #bccaaaaa/abbbbbbbbbbccccccccddddebbbbbfghiiiiiiiiiiiiife
+  -12 1 #bccaaaaa/abbbbbccccccccccccdddddeeeebafgiiiiiiiiiiiiiige
+  -11 1 /#xc.a.aaabbbbbccccccccdddddddddeeeeecbfgiiiiiiiiiiiiiige
+  -10 1 ##cccaaaa.bbbbbcccccccddddddddddeeeeecbfghiiiiiiiiiiiiife
+   -9 1 ccccbaabb.bbbbbccccdddddddddddddeeeeeccfghiiiiiiiiiiiiige
+   -8 1 cccccbbbbbbbbbbcdddddddddddddddeeeeeecbfghiiiiiiiiiiiiihe
+   -7 1 cccccbbbb#bbbbbcdvdddvdddddddddeeeeeeccfggiiiiiiiiiiiiiif
+   -6 1 dddcb..abbbbbbbdvvdddvvdddddddeeeeeeecbfggiiiiiiiiiiiiiif
+   -5 1 dddceeedbbbbbbbdvdddddvdddeeeeeeeeeeeccfggiiiiiiiiiiiiiig
+   -4 1 eeeceeeecbbbbbbdvdddddvdd#eeeHHe#eeeecbfggiiiiiiiiiiiiiig
+   -3 1 eeebeeeecbbbbbbvddddd#|##########Heeeccgggiiiiiiiiiiiiiih
+   -2 1 eeeeeeeeccbabbdvdddddddd.#......#eeeecbggghiiiiiiiiiiiiii
+   -1 1 xxeeeeeec..aabdvdddddddd.#...11a#eeeeccggghiiiiiiiiiiiiii
+    0 1 ##eeeeeedd2aabddddddddd..#..@bba#eeeecbggghiiiiiiiiiiiiii
+    1 1 ##eeeeeedd#aaavdddddddd../......#Heeeccggghiiiiiiiiiiiiii
+    2 1 xxeeeeeeeddcaa|dddddd#|###/#######eeecbgggiiiiiiiiiiiiiii
+    3 1 e#eeeeeeeeeddaaddddddvvdd#...KK.#eeeeccfggiiiiiiiiiiiiiii
+    4 1 e/edeeeeeeedddaddddddvddd........eeeebafggiiiiiiiiiiiiiii
+    5 1 eeeeeeeeeeedddaddddddvdddddde....eeeebbffgiiiiiiiiiiiiiii
+    6 1 eeeeeeeeddedddaddddddvddddddeeeeeeeeebaffhiiiiiiiiiiiiiii
+    7 1 eeeeeeeedeeddda|vddvvvddddddeeeeeeeeebbffiiiiiiiiiiiiiiii
+    8 1 eeeeeeeeddeddd/dddddddddddddeeeeeeeeebaffiiiiiiiiiiiiiiii
+    9 1 eeeeeeeeddeedd/ddddddddddddeeeeeeeeeebbfgiiiiiiiiiiiiiiii
+   10 1 ffeeeeeedeeeeeaddddddccdddeeeeeeeeeeebafiiiiiiiiiiiiiiiii
+   11 1 ffeeeeeeddeeeeaaddddcccccdeeeeeeeeeeebbgiiiiiiiiiiiiiiiii
+   12 1 ffeeeeeeeeeeeeaaaddd.bbccdeeeeeeeebbbbbiiiiiiiiiiiiiiiiii
+   13 2 ffeeeeeeeeeeeaaaaaaabbbbcdeeeeeeeebbbHbiiiiiiiiiiiiiiiiii
+   15 2 ffeeeeeee...aaaeeeaaaaabbbbbbbbbbbbbbbbiiiiiiiiiiiiiiiiii
+   17 2 ffeeeeeeeK..eeaeeeeeaaeeeeeeeeeeffeghiiiiiiiiiiiiiiiiiiii
+   19 2 fffeeeeeeK..eeeeaaee.aeeeeeeeveffeghiiiiiiiiiiiiiiiiiiiii
+   21 2 ffffeeefe222eeeeeeaaaaeeeeeeeeeffeghiiiiiiiiiiiiiiiiiiiii
+   23 2 fffffffff333eeeeeeeebbeeeeeeeeefegghiiiiiiiiiiiiiiiiiiiii
+   25 4 fffffffffeeHeeeeeeeebceeeeeeefffghiiiiiiiiiiiiiiiiiiiiiii
+   29 4 ffffffffffffffeeeeeebceeeeffffegghiiiiiiiiiiiiiiimiiiiiii
+   33 4 fffffffffffffffeeeeebceeeffffeghiiiiiiiiiiiiiiiiiiiiiiiii
+   37 4 fffffff/fffffffee.aaH.efffggghiiiiiiiiiiiiiiiiiiiiiiiiiii
+   41 4 xffffffggggfffffcbbafffffgghiiiiiiiiiiiiiiiiiiiiimiiiiiii
+   45 4 xfffffggggggggfcfffffffghhiiiiiiiiiiiiiiiiiiiiiiiiiimiiii
+   49 4 xffffggggggggddfffffggghiiiiiiiiiiiiiiiiiiiiiiimiiiiiiiii
+   53 4 fffggggggggcHggggggghiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+   57 4 gggggggggggggggghhhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+   61 4 ggggggggggggggghiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+AFORDANCJE (TU: pod dachem; wyjscie 7 krokow S przez drzwi SW 3m (-160,117,69); skrzynia 3m S (droga 7 krokow))
+N: szyba 2m wys 4, za nia sciana 22m; NE: piec 1m wys 1 (wejdziesz), zejscie 2 w dol za 1m; E: szyba 4m wys 4, zejscie 2 w dol za 1m; SE: szyba 2m wys 4, za nia skrzynia 3m, zejscie 2 w dol za 1m; S: szyba 2m wys 4; SW: sciana 2m wys 4, drzwi 3m; W: sciana 2m wys 5, drzwi 3m; NW: lozko 1m wys 1 (wejdziesz)

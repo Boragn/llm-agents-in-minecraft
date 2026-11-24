@@ -1,0 +1,8 @@
+== RADAR 32 promieni co 11.25 st. (0 = N, zgodnie z zegarem), z oczu; komorka = typ+odleglosc m (.=nic do 32 m); typy: z=sciana #=skala/ziemia L=pien l=liscie g=szyba |=plot/mur /=drzwi ==furtka H=drabina K=skrzynia f=piec t=stol b=lozko ~=woda ^=lawa !=ogien; 'wys' = gora przeszkody nad Twoimi stopami (bl.); 'za' = co widac za przezroczysta przeszkoda
+az     N       NNE     NE      ENE     E       ESE     SE      SSE     S       SSW     SW      WSW     W       WNW     NW      NNW
+gora   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+poziom .   .   .   .   .   .   .   .   .   K3  K3  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+wys                                        +1  +1
+dol    #9  #9  #9  #9  #9  #9  #9  #9  z3  K3  K3  #9  #9  !8  #9  #9  #9  #9  #9  #9  #9  #9  z3  z3  z3  #9  #9  #9  #9  #9  #9  #9
+AFORDANCJE (TU: pod niebem; skrzynia 3m E; WROG: zombie x6 N/NW/NE 2-4m, 3 nizej, dojda (6 z 6) najkrotsza droga 44 bl. przez drzwi i drabine)
+NW,N,NE: otwarte trawa 32m, zejscie 3 w dol za 1m; E: skrzynia 3m wys 1 (wejdziesz), zejscie 3 w dol za 2m, drabina 6m 2m na prawo (od -3 do +1); SE: skrzynia 3m wys 1 (wejdziesz), zejscie 3 w dol za 2m, drabina 6m 3m na lewo (od -3 do +1), lawa/ogien 7m 1m na prawo; S,SW,W: otwarte trawa 32m, zejscie 3 w dol za 2m

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" shape-rendering="crispEdges">
+<rect width="1000" height="420" fill="#0f1218"/>
+<text x="12.0" y="22.0" font-family="sans-serif" font-size="15" fill="#d8dee9" text-anchor="start" font-weight="bold">Odpowiedzi interfejsu akcji: pozycja menu, walidacja i okno czasu</text>
+<text x="12.0" y="40.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">Formaty odpowiedzi moda (przyklady z opisu menu dla bota i ze specyfikacji okna czasu; nie odczyt z przebiegu).</text>
+<rect x="14.0" y="60.0" width="970.0" height="76.0" fill="#161b24" rx="6" stroke="#2c3646"/>
+<text x="26.0" y="82.0" font-family="sans-serif" font-size="12" fill="#d8dee9" text-anchor="start" font-weight="bold">Pozycja menu `akcje`</text>
+<rect x="26.0" y="96.0" width="6.0" height="28.0" fill="#7bc67b"/>
+<rect x="40.0" y="103.0" width="25.2" height="19" rx="4" fill="#161b24" stroke="#d8dee9"/>
+<text x="46.0" y="117.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">A5</text>
+<rect x="71.2" y="103.0" width="51.6" height="19" rx="4" fill="#161b24" stroke="#7bc67b"/>
+<text x="77.2" y="117.0" font-family="sans-serif" font-size="11" fill="#7bc67b" text-anchor="start">ZBIERZ</text>
+<rect x="128.8" y="103.0" width="137.4" height="19" rx="4" fill="#161b24" stroke="#7bc67b"/>
+<text x="134.8" y="117.0" font-family="sans-serif" font-size="11" fill="#7bc67b" text-anchor="start">zbierz oak_log 1..6</text>
+<rect x="272.2" y="103.0" width="196.8" height="19" rx="4" fill="#161b24" stroke="#8b97aa"/>
+<text x="278.2" y="117.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">6 widocznych, najblizszy 9 m</text>
+<rect x="475.0" y="103.0" width="71.4" height="19" rx="4" fill="#161b24" stroke="#4fb3d9"/>
+<text x="481.0" y="117.0" font-family="sans-serif" font-size="11" fill="#4fb3d9" text-anchor="start">ETA ~20 s</text>
+<rect x="552.4" y="103.0" width="104.4" height="19" rx="4" fill="#161b24" stroke="#8b97aa"/>
+<text x="558.4" y="117.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">wytrzymalosc 0</text>
+<rect x="662.8" y="103.0" width="97.8" height="19" rx="4" fill="#161b24" stroke="#7bc67b"/>
+<text x="668.8" y="117.0" font-family="sans-serif" font-size="11" fill="#7bc67b" text-anchor="start">ryzyko niskie</text>
+<rect x="766.6" y="103.0" width="45.0" height="19" rx="4" fill="#161b24" stroke="#7bc67b"/>
+<text x="772.6" y="117.0" font-family="sans-serif" font-size="11" fill="#7bc67b" text-anchor="start">pewna</text>
+<rect x="14.0" y="150.0" width="970.0" height="96.0" fill="#161b24" rx="6" stroke="#e5565b"/>
+<text x="26.0" y="172.0" font-family="sans-serif" font-size="12" fill="#e5565b" text-anchor="start" font-weight="bold">Walidacja przy wyslaniu: lancuch odrzucony, bez kosztu tury</text>
+<rect x="26.0" y="184.0" width="290.0" height="46.0" fill="#0f1218" rx="4" stroke="#7bc67b" stroke-width="2"/>
+<text x="36.0" y="203.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">krok 1: idz stol-craftingu</text>
+<text x="36.0" y="221.0" font-family="sans-serif" font-size="11" fill="#7bc67b" text-anchor="start" font-weight="bold">POPRAWNY</text>
+<rect x="336.0" y="184.0" width="290.0" height="46.0" fill="#0f1218" rx="4" stroke="#e5565b" stroke-width="2"/>
+<text x="346.0" y="203.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">krok 2: craft wooden_pickaxe 1</text>
+<text x="346.0" y="221.0" font-family="sans-serif" font-size="11" fill="#e5565b" text-anchor="start" font-weight="bold">E_BRAK_STOLU</text>
+<rect x="646.0" y="184.0" width="290.0" height="46.0" fill="#0f1218" rx="4" stroke="#8b97aa" stroke-width="2"/>
+<text x="656.0" y="203.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">krok 3</text>
+<text x="656.0" y="221.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start" font-weight="bold">nie sprawdzany</text>
+<rect x="14.0" y="260.0" width="970.0" height="140.0" fill="#161b24" rx="6" stroke="#2c3646"/>
+<text x="26.0" y="282.0" font-family="sans-serif" font-size="12" fill="#d8dee9" text-anchor="start" font-weight="bold">SPRAWDZ: lancuch 3 kroki w oknie do nastepnego wywolania modelu (1500 t = 75 s)</text>
+<rect x="40.0" y="300.0" width="708.0" height="22.0" fill="#4fb3d9"/>
+<rect x="748.0" y="300.0" width="192.0" height="22.0" fill="#3a4250"/>
+<rect x="676.0" y="296" width="252.0" height="30" fill="none" stroke="#f0a04b" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="46.0" y="316.0" font-family="sans-serif" font-size="11" fill="#0b0e13" text-anchor="start" font-weight="bold">zajete 1180 t (59 s), wypelnienie 79%</text>
+<text x="754.0" y="316.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">bezczynnosc 320 t</text>
+<text x="676.0" y="344.0" font-family="sans-serif" font-size="11" fill="#f0a04b" text-anchor="start">przedzial niepewnosci 1060..1480 t (p10..p90)</text>
+<text x="40.0" y="370.0" font-family="sans-serif" font-size="11" fill="#8b97aa" text-anchor="start">wytrzymalosc</text>
+<rect x="130.0" y="360.0" width="210.0" height="12.0" fill="#161b24" stroke="#2c3646"/>
+<rect x="130.0" y="360.0" width="149.1" height="12.0" fill="#7bc67b"/>
+<text x="346.0" y="370.0" font-family="sans-serif" font-size="11" fill="#d8dee9" text-anchor="start">71/100</text>
+<text x="460.0" y="371.0" font-family="sans-serif" font-size="11" fill="#e8d06b" text-anchor="start">ryzyko przerwania 0,35   ocena: ZA KROTKI o 320 t, dodaj ogon</text>
+</svg>

@@ -1,0 +1,10 @@
+RUDY 8: zloza odslonionych blokow z mapy wiedzy ciala (wiek obserwacji jawny; ruda sama nie wygasa, znika gdy cialo zobaczy ja wykopana)
+- auto-ruda-iron-3 iron x3 (-92,69,133) 93 m S, y 69..71, bbox x -92..-91 y 69..71 z 131..133, stanowisko -92,70,133, widziane 4m01s temu, auto-odkrycie
+- auto-ruda-coal-6 coal x4 (-91,69,134) 94 m S, y 69..69, bbox x -92..-90 y 69..69 z 134..135, stanowisko -90,69,134, widziane 3m45s temu, auto-odkrycie
+- auto-ruda-coal-5 coal x9 (-176,88,-52) 147 m NW, y 87..90, bbox x -177..-175 y 87..90 z -54..-52, stanowisko -176,88,-53, widziane 11m58s temu, auto-odkrycie
+- auto-ruda-iron-1 iron x3 (-184,101,156) 154 m SW, y 101..102, bbox x -184..-183 y 101..102 z 156..156, stanowisko -185,99,156, widziane 1h38m temu, auto-odkrycie
+- auto-ruda-iron-2 iron x3 (-190,99,152) 156 m SW, y 99..100, bbox x -190..-189 y 99..100 z 152..152, stanowisko -191,98,151, widziane 1h38m temu, auto-odkrycie
+- auto-ruda-coal-2 coal x3 (-194,100,170) 171 m SW, y 99..100, bbox x -195..-193 y 99..100 z 169..171, stanowisko -194,99,169, widziane 1h59m temu, auto-odkrycie
+- auto-ruda-coal-4 coal x3 (-263,56,-30) 213 m NW, y 56..56, bbox x -263..-262 y 56..56 z -31..-30, stanowisko -264,56,-31, w regionie auto-jaskinia-1, widziane 4h55m temu, auto-odkrycie
+- auto-ruda-coal-3 coal x3 (-273,70,-39) 223 m NW, y 70..71, bbox x -273..-272 y 70..71 z -39..-38, stanowisko -274,70,-38, w regionie auto-jaskinia-1, widziane 4h55m temu, auto-odkrycie
+
